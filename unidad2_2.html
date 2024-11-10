@@ -1,0 +1,207 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+  
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sistemas digitales</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">	
+  </head>
+  
+  
+  <body>
+	
+<div id="menucin">
+<img src="imas/menu.jpg" id="menucito1" class="img-fluid d-lg-block d-md-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_m.jpg" id="menucito2" class="img-fluid d-md-block d-lg-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_sm.jpg" id="menucito3" class="img-fluid d-block d-md-none" alt="Encabezado de Sistemas Digitales">	
+	<p id="botones_menu" class="d-md-block d-sm-none d-none"> <a href="index.html" target="_self" class="bot-menu"> Inicio </a> &nbsp;&nbsp; <a href="unidad1.html" target="_self" class="bot-menu">  Unidad I </a> &nbsp;&nbsp; <a href="unidad2.html" target="_self" class="bot-menu">  Unidad II </a> &nbsp;&nbsp; <a href="unidad3.html" target="_self" class="bot-menu">  Unidad III </a> &nbsp;&nbsp; <a href="unidad4.html" target="_self" class="bot-menu"> Unidad IV </a>   &nbsp;&nbsp; <a href="bibliografia.html" target="_self" class="bot-menu">  Bibliografía </a> </p>
+</div>
+	  
+	  
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary d-md-none">
+	
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	  
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li id="espacio"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        
+       
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad1.html">Unidad I</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad2.html">Unidad II</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad3.html">Unidad III</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad4.html">Unidad IV</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+        </li>
+		  
+		  
+      </ul>
+    </div>
+  </div>
+</nav>
+	 
+	</div>
+	  
+
+	  
+
+		  <br><br><br>
+	<div class="container">
+		
+		<center><img src="imas/portada_u2.jpg" class="img-fluid" alt="Unidad II"></center>
+		<br>
+		
+		
+		<div class="card-header">2.2. Implementación de funciones con compuertas</div>
+		<br>
+		
+		<p>El esquema gráfico de una función Booleana con compuertas.</p>
+		<p>La principal ventaja de utilizar el álgebra booleana radica en que las operaciones básicas AND, OR y NOT tienen un equivalente directo en términos de circuitos. Estos circuitos reciben el nombre de compuertas lógicas.
+			Las tres compuertas fundamentales reciben el mismo nombre que los operadores, es decir, existen las compuertas AND, compuertas OR y compuertas NOT. La última compuerta recibe el nombre más usual de inversor.
+			Con estas tres compuertas se puede implementar cualquier circuito lógico.
+			.</p>
+
+		<p><b><i>Ejemplo 8.-</i></b> Mostrar el esquema de la función Q=AB’ + ABC
+			Solución:
+		</p>
+		<br>
+
+		<br>
+	<center><img src="imas/u2/u2_9.jpg" class="img-fluid" alt="Diagrama esquemático de la función Q=AB’ + ABC">	<p class="tx-figura">Figura 9. Diagrama esquemático de la función Q=AB’ + ABC</p></center>
+		
+	<p>Pero así mismo existen otras compuertas que resultan de la combinación de una compuerta AND con un inversor que se denomina NAND y la compuerta OR con un inversor que se denomina NOR. En la figura  10   mostramos los símbolos tradicionales.</p>
+		
+	<br>
+	<center><img src="imas/u2/u2_10.jpg" class="img-fluid" alt="Se muestran los símbolos tradicionales de compuertas booleanas">	<p class="tx-figura">Figura 10. Se muestran los símbolos tradicionales de compuertas booleanas</p></center>
+
+		<h3>2.2.1. Sistemas con Uni-compuertas NAND o NOR</h3>
+		<p>Es posible demostrar que con únicamente un tipo de compuertas ya sea NAND o NOR se puede implementar cualquier función lógica. Así una compuerta es universal si con solo este tipo de compuerta se puede implementar cualquier función lógica.</p>
+				
+		<p><b><i>Ejemplo 9.-  </i></b> Expresar solamente con compuertas NAND la expresión</p>
+
+		<br>
+		<center><img src="imas/u2/u2_11.jpg" class="img-fluid" alt="De la función Q  =  A’B + AB’">	<p class="tx-figura">Figura 11. De la función Q  =  A’B + AB’</p></center>
+
+		<p>Solución .-  Conviene negar dos veces la expresión Q, y aplicar los teoremas de Morgan, esto es:
+
+		<p>Q = Q’’ = [ (A’B + AB’)’]’    =    [ (A’B)’ (AB’)’]’</p>
+            En donde podemos visualizar las compuertas NAND,    (A’B)’ e (AB’)’ para finalmente efectuar el contenido de [  ]’ con otra compuerta. 
+        </p>
+
+		<br>
+		<center><img src="imas/u2/u2_12.jpg" class="img-fluid" alt="Función  Q=A’B+AB’ con solo compuertas NAND">	<p class="tx-figura">Figura 12. Función  Q=A’B+AB’ con solo compuertas NAND</p></center>
+		
+		<center><div class="actividad">
+			<h4>Actividad complementaria 4:</h4> <hr>
+			<p class="text-center"><i>Hacer el diagrama esquemático para Q = A(B+C’) solo con compuertas NAND</i></p>   
+		</div></center>
+		<br>
+
+		<p><b><i>Ejemplo 10.-  </i></b> Expresar solamente con compuertas NOR la expresión</p>
+
+		<p>Q  =  A’B + AB’</p>
+        
+
+		<p>Solución: Conviene negar dos veces a Q, esto es y aplicar los teoremas de Morgan</p>
+		<p>Q = Q’’ = [ (A’B + AB’)’]’</p>    
+        <p>En donde podemos visualizar que (A’B + AB’)’ es una compuerta NOR y teniendo presente los teoremas de De Morgan  (x +y)’ = x’ + y’  ,   (xy)’ = x’ +y’, es fácil ver que A’B también se puede representar con una compuerta NOR lo mismo que AB’</p>
+
+		<center><div class="actividad">
+			<h4>Actividad complementaria 5:</h4> <hr>
+			<p class="text-center"><i>Hacer el diagrama esquemático </i></p>
+			<p>Cabe señalar que la función X= A’B + AB’ es la compuerta conocida como OR exclusiva o XOR
+				Esta compuerta no es un operador directo. La importancia radica en su amplio uso en la aritmética binaria, siendo la base de la suma. También es muy usada en los circuitos de detección y corrección de errores, implementando funciones de comparación y paridad. 
+				El sumador completo, su símbolo y tabla de combinaciones se muestran en la figura 13
+				</p>   
+		</div></center>
+		<br>
+
+		<br>
+		<center><img src="imas/u2/u2_13.jpg" class="img-fluid" alt="Esquema de verdad para  un sumador completo de 3 bit">	<p class="tx-figura">Figura 13. Esquema de verdad para  un sumador completo de 3 bit</p></center>
+
+        <br>
+        <center><img src="imas/u2/u2_t13.jpg" class="img-fluid" alt="Tabla de verdad para  un sumador completo de 3 bit">	<p class="tx-figura">Tabla 13. Tabla de verdad para  un sumador completo de 3 bit</p></center>
+
+		<p>Las operaciones binarias NOT, AND, OR NAND, NOR y EXOR y sus posibles combinaciones o arreglos se fabrican con el nombre de compuertas lógicas y de acuerdo con su tecnología se identifican en dos grandes familias, la familia TTL (Transistor Transistor Logic) y la familia CMOS  (Complementary MOS)  Semiconductores a base de óxido y metal.</p>
+        <p>La familia TTL se caracteriza porque se maneja un voltaje de alimentación de 5.1 V y corriente promedio del orden de los 10 mmA. Como característica importante es que se pueden manipular manualmente sin ninguna precaución.</p>
+        <p>La Familia CMOS tiene un voltaje de operación de 3.2 V y consume una corriente promedio de 10 nanoA, ( 10-9 A). Y se debe de tener la precaución para manipularlas de usar ropa de algodón y usar una pulsera conectada a potencial de tierra a fin de evitar descargas eléctricas que pueden destruir la compuerta dada la poca corriente que soportan.</p>
+        <p>En la unidad V se presenta un estudio de las familias de compuertas con mayor detalle.</p>
+
+		<h3>2.2.2. Teoremas del Álgebra Booleana</h3>
+		<p>Ya se señalaron los diferentes teoremas del Álgebra Boolean en el apartado 2.1.1 su aplicación se verá con mayor detalle en el apartado 2.3.1 Aritmética de funciones.</p>
+
+		<h3>2.2.3. Teoremas de D’Morgan</h3>
+		<p>Teorema de D’Morgan  para la negación de la suma
+			{ A + B}’ = A’B’       Que se lee: la negación de la suma binaria es igual a multiplicación de entre cada término negado
+		.</p>
+
+		<p><b><i>Ejemplo 11.- </i></b> Determinar el valor de la siguiente función después de aplicar el teorema de D’Morgan para la suma:</p>
+        <p>a.-{ AB’ + A’B}’</p>
+		<p>Solución     { AB’ + A’B}
+			= (AB’)’(A’B)’     Aplicación de teorema D’Morgan para l suma
+        </p>
+        <p>Teorema de D’Morgan para la negación de la Multiplicación
+			{ AB}’ = A’ + B’       Que se lee: la negación de la multiplicación binaria es igual a  la suma de entre cada término negado.
+		</p>
+
+		<p>Nota: Para resumir, al aplicar los teoremas de D’Morgan: a la suma, ésta cambia a multiplicación y al contrario cuando se aplica a la multiplicación, esta cambia a suma y en ambos casos se niega cada término.</p>
+
+		<p><b><i>Ejemplo 12.-  </i></b> Determinar la mínima expresión para la función del ejemplo 12  anterior </p>
+        <p>{ AB’ + A’B}’= (AB’)’(A’B)’
+			= (A’+B)(A + B’)  =  Aplicación de teorema D’Morgan para la multiplicación 
+		   = A’A+A’B’+AB+BB’
+			= 0 + A’B’+AB+0
+			= A’B’+AB
+			y la negación de multiplicación de funciones
+       </p>
+			<br>
+		<a href="unidad2.html" target="_self"><img src="imas/btn_atras.png" class="bot" style="float:left;"></a>
+		<a href="unidad2_3.html" target="_self"><img src="imas/btn_adelante.png" class="bot" style="float:right;"></a>
+
+	
+	</div>
+	  
+	  <div id="pleca_botones"><center><a href="pdf/ejercicios_u2.pdf" target="_blank"><img src="imas/btn_ejercicios1.png" class="descargable" alt="descargar ejercicios"></a> &nbsp; &nbsp; <a href="pdf/soluciones_u2.pdf" target="_blank"><img src="imas/btn_solucion1.png" class="descargable" alt="descargar soluciones"></a></center></div>
+	
+
+	  
+	  <br><br><br><br><br><br><br><br><br>
+	  
+
+<script src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+

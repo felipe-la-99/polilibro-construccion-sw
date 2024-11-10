@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Regular.woff2') format('woff2'),
+        url('../font/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url('../font/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../font/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body{
+	background: url("../imas/fondo.jpg") ;
+	background-size:  100% 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+
+}
+#inicio{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 22px;
+	color: #02164E;
+}
+
+
+
+p{
+	text-align: justify;
+}
+
+#botones_menu{
+	margin-top: -80px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	z-index: 10;
+}
+
+
+@media only screen and (max-width: 1450px) {
+ #botones_menu{
+	margin-top: -50px;
+	 font-size: 15px;
+}
+}
+
+
+
+.bot{
+	padding-top: 20px;
+}
+
+
+.card-header{
+	background: url("../imas/pleca.jpg");
+	background-size: auto 100%;
+	background-position: right;
+	background-color: #102913;
+	background-repeat: no-repeat;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+
+.bot-acor{
+	 position: absolute; 
+	width: 100%; 
+	height: 50px; 
+	top: 0px; 
+	left: 0px;
+}
+.iconito1{
+	position: absolute; 
+	left: 0px; 
+	top: 0px;
+}
+.iconito2{
+	position: absolute; 
+	right: 0px; 
+	top: 0px;
+}
+
+
+h3{
+	color:#021B6A;
+	margin-top: 32px;
+}
+
+ol li::marker, ul li::marker {
+    color: #0071B9;
+	font-weight: bold;
+}
+
+
+ 
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.bot-menu{
+	color: white
+		
+}
+
+.bot-menu:hover{
+	color:#00BAE0;
+}
+
+.titulin{
+	color:#021B6A;
+	font-size: 22px;
+	margin-top: 30px;
+}
+
+#pleca_botones{
+	width: 100%;
+	padding: 10px;
+	background: linear-gradient(to right, rgb(31,77,41), rgb(65,135,58));
+	position: fixed;
+	bottom:0px;
+}
+
+.tx-figura{
+	text-align: center;
+	color:#0071B9;
+	margin-top: 10px;
+}
+
+
+.actividad{
+	background: #E8F3FC;
+	border: dotted 2px #0071B9;
+	color: #01184D;
+	width: 100%;
+	max-width: 800px;
+	padding:20px;
+	margin-top: 50px;
+}
+
+hr{ 
+	 border: 1px solid #0071B9;
+}
+
+
+.indice {
+	background: #C9E3F7;
+	padding: 20px;
+	color: #02164E;
+}

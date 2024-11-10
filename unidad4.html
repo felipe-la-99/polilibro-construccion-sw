@@ -1,0 +1,280 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+  
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sistemas digitales</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">	
+  </head>
+  
+  
+  <body>
+	
+<div id="menucin">
+<img src="imas/menu.jpg" id="menucito1" class="img-fluid d-lg-block d-md-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_m.jpg" id="menucito2" class="img-fluid d-md-block d-lg-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_sm.jpg" id="menucito3" class="img-fluid d-block d-md-none" alt="Encabezado de Sistemas Digitales">	
+	<p id="botones_menu" class="d-md-block d-sm-none d-none"> <a href="index.html" target="_self" class="bot-menu"> Inicio </a> &nbsp;&nbsp; <a href="unidad1.html" target="_self" class="bot-menu">  Unidad I </a> &nbsp;&nbsp; <a href="unidad2.html" target="_self" class="bot-menu">  Unidad II </a> &nbsp;&nbsp; <a href="unidad3.html" target="_self" class="bot-menu">  Unidad III </a> &nbsp;&nbsp; <a href="unidad4.html" target="_self" class="bot-menu"> Unidad IV </a>   &nbsp;&nbsp; <a href="unidad5.html" target="_self" class="bot-menu">  Unidad V </a> &nbsp;&nbsp; <a href="bibliografia.html" target="_self" class="bot-menu">  Bibliografía </a> </p>
+</div>
+	  
+	  
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary d-md-none">
+	
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	  
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li id="espacio"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        
+       
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad1.html">Unidad I</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad2.html">Unidad II</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad3.html">Unidad III</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad4.html">Unidad IV</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad5.html">Unidad V</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+        </li>
+		  
+		  
+      </ul>
+    </div>
+  </div>
+</nav>
+	 
+	</div>
+	  
+
+	  
+
+		  <br><br><br>
+	<div class="container">
+		
+		<center><img src="imas/portada_u4.jpg" class="img-fluid" alt="Unidad IV"></center>
+		<br>
+		
+		<p>Reconoce las características básicas de los circuitos secuenciales, a través del estudio de Latch, Flip-Flop, multivibradores, de lógica programable PLD, GALs y memorias ROM y RAM, para construir sus propias definiciones de conceptos, empleados en el diseño de circuitos lógicos programables.</p>
+		<br>
+    <div class="indice col-12 col-lg-8 mx-auto">
+      <p>En esta unidad encontrarás los siguientes temas:</p>
+    <p><b>4.1 Circuitos secuenciales.</b><br>
+      4.1.1 Latches, flip flops y multivibradores.<br>
+      <b>4.2 Contadores.</b><br>
+      4.2.1 Funcionamiento del contador asíncrono.<br>
+      4.2.2 Funcionamiento del contador síncrono.<br>
+      <b>4.3 Circuitos de registro.</b><br>
+      4.3.1 Tipos de registro serie-paralelo y sus combinaciones.<br>
+      <b>4.4 Máquinas secuenciales de Moore y Mealy </b><br>
+      4.4.1 Metodología para el diseño de sistemas secuenciales síncronos simples.<br>
+      <b>4.5 Circuitos lógicos programables.</b><br>
+      4.5.1 Memorias ROM y RAM.<br>
+    4.5.2 Circuitos PLD y GAL.</p>
+    </div>
+
+      <br><br>
+		
+		<div class="card-header">4.1. Circuitos secuenciales</div>
+		
+    <p>El concepto de circuito secuencial se aplica a aquellos circuitos lógicos en los que sus valores en el  estado presente dependen del estado anterior y a su vez condicionan los del estado siguiente. Lo que se ilustra en la figura 69</p>
+
+    <br>
+		<center><img src="imas/u4/u4_48.jpg" class="img-fluid" alt="Estados para un circuito secuencial">	<p class="tx-figura">Figura 48. Estados para un circuito secuencial</p></center>
+
+    <p>Lo explicaremos con un ejemplo sencillo; Se tiene un circuito formado por una batería de 1.5 V, un interruptor y un foco, que forman un circuito secuencial, puesto que para estar encendido el foco , estado presente, debió estar  apagado ,estado anterior, y en el ,estado siguiente, el foco estará apagado.   Para el estado presente, foco apagado, el estado anterior fue foco prendido y el estado siguiente será foco prendido. En este ejemplo el interruptor es el elemento que proporciona el estado, interruptor cerrado foco prendido y interruptor abierto foco apagado. A esto se le llama elemento de almacenamiento.</p>
+    <p>Es decir en los circuitos secuenciales la función de salida depende del estado actual más entradas externas, y siempre presenta tres estados: anterior, presente y siguiente. Cabe mencionar que el circuito siempre está en estado presente, ¿ podrías explicar por el qué?.</p>
+
+		<h3>4.1.1. Latches, flip flops y multivibradores</h3>
+
+    <p>En los circuitos secuenciales el elemento de almacenamiento que proporciona los estados son los circuitos llamados Flip-Flop en su forma más elemental es un circuito retroalimentado formado por dos compuertas iguales ya sean "And" u "Nor"  ver figura 49 a) y b)</p>
+    <p>Los circuitos llamados Latch o Latches son circuitos Flip-Flop que mantienen el estado de salida Alto o Bajo hasta que son activados para un cambio de estado, en un cambio en el nivel de la señal de entrada, no requieren de una señal temporizadora de sincronía o disparo, son flip-flop elementales y útiles para diseñar circuitos asíncronos. Es decir, no dependen de una señal temporizadora de sincronía. Los circuitos de la figura 49 son latches</p>
+    <p>En los circuitos se observa que para su funcionamiento se tienen dos entradas S ( set) y R ( reset ) y dos salidas Q y Q' en donde una salida es el complemento de la otra.</p> 
+    <p>Para Q =1 , Q' = 0  se dice que es la condición SET (establecer) y para  Q =0 , Q' = 1  se dice que es la condición RESET (restablecer).</p>
+
+    <br>
+		<center><img src="imas/u4/u4_49a.jpg" class="img-fluid" alt="latch SR – NAND  y  Tabla de verdad.">	<p class="tx-figura">Figura 49 a). latch SR – NAND  y  Tabla de verdad.</p></center>
+
+    <p>Este es un circuito con dos compuertas NAND con retroalimentación, es decir la salida del primero se conecta a la entrada del segundo y la salida del segundo se conecta a la entrada del primero.</p>
+    <p>Operación: Normalmente opera con ambas entradas en 1, es decir R = 1 y S = 1, ya sea para que en la salida esté en el valor asignado o para cuando se desea efectuar cambio.</p>
+    <p>Dejando R = 1 y poniendo la entrada S = 0  se pondrá la salida en Q = 1 , (SET), cuando regresen ambas entradas a 1,  y permanecerá en este estado,  hasta que se desee hacer cambio, por otro lado dejando S = 1 y poniendo en la entrada  R = 0  se pondrá la salida en Q = 0  (RESET) cuando ambas entradas regresen a 1,  y permanecerá en este estado,  hasta que se desee hacer cambio. Pero si se hace tanto a R = 0 como a S = 0 se produce un estado no definido, por lo que se debe evitar esta condición.</p>
+
+    <br>
+		<center><img src="imas/u4/u4_49b.jpg" class="img-fluid" alt="latch SR – NAND  y  Tabla de verdad.">	<p class="tx-figura">Figura 49 b). latch SR – NAND  y  Tabla de verdad.</p></center>
+
+    <p>Es un circuito con dos compuertas NOR con retroalimentación, es decir la salida del primero se conecta a la entrada del segundo y la salida del segundo se conecta a la entrada del primero.</p>
+    <p>Operación: Normalmente opera con ambas entradas en 0, es decir R = 0 y S = 0, ya sea para que en la salida este en el valor asignado o para cuando se desea efectuar cambio.</p>
+    <p>Dejando R = 0 y poniendo la entrada  S = 1  se pondrá la salida en Q = 1 , (SET), cuando regresen ambas entradas a 0,  y permanecerá en este estado,  hasta que se desee hacer cambio, por otro lado dejando S = 0 y poniendo en la entrada  R = 1  se pondrá la salida en Q = 0  (RESET) cuando ambas entradas regresen a 0,  y permanecerá en este estado,  hasta que se desee hacer cambio. Pero si se hace tanto a R = 1 como a S = 1 se produce un estado no definido, por lo que se debe evitar esta condición.</p>
+    <p>Latch con señal de control.</p>
+    <p>Latch con señal de control que permita que un cambio en la entrada afecte al valor establecido.</p>
+    <p>Esto se logra con el circuito de la figura 50 el cual tiene dos compuertas NAND controladas por una señal C de tal forma que si C = 0 la señal de salida Q no cambia pero si</p>
+
+    <br>
+		<center><img src="imas/u4/u4_50.jpg" class="img-fluid" alt="Tabla de verdad del latch SR con señal C de control">	<p class="tx-figura">Figura 50. Tabla de verdad del latch SR con señal C de control</p></center>
+
+    <p class="titulin">Latch D </p>
+    <p>Este latch se puede construir tanto con NAND como con NOR, y está diseñado para impedir que ambas entradas tengan el mismo valor, pues como ya se dijo se produciría una salida Q = no definida. Es útil para almacenar datos binarios</p>
+
+    <br>
+		<center><img src="imas/u4/u4_51.jpg" class="img-fluid" alt="Latch tipo D">	<p class="tx-figura">Figura 51. Latch tipo D</p></center>
+
+    <p class="titulin">Circuitos FLIP-PLOP´s</p>
+    <p> A un circuito  latch se le llama FLIP-PLOP si se construye de tal manera que cambie de estado enviando pulsos de control, cuando se dispare únicamente con una señal de control llamada RELOJ o “CLOCK”  al cambiar esta de 0 a 1 o viceversa, entendiendo que solo hace el disparo en el instante del cambio. Al contrario de los circuitos latch que como ya se dijo, el cambio se puede realizar mientras se mantenga el valor de 1.</p>
+    <p>El que un circuito latch pueda cambiar de estado mientras se mantiene el nivel de disparo provoca que el sistema pueda cambiar de estado varias veces y generar errores, al contrario de cuando solamente se cambia de estado cuando durante el disparo, es decir en el tiempo de transición de la señal</p>
+    <p>Existen varios tipos de Flip-Flop o F-F todos ellos responden a diferentes señales de excitación, son construidos generalmente en compuertas F-F más circuitos combinacionales, para diferentes tipos de aplicación, aunque es conveniente señalar que para la misma aplicación se puede implementar con cualquier tipo de F-F, obviamente unos presentan mejores ventajas que otros</p>
+    <p>La mayoría de los circuitos secuenciales se implementan con circuitos tipo JK o tipo D</p>
+
+    <p class="titulin">Flip-Flop tipo D </p>
+    <p>Este circuito es disparado durante el periodo de transición de 1 a 0 de la señal de reloj esto se logra con dos latch tal como se muestra en la figura 52</p>
+
+    <br>
+		<center><img src="imas/u4/u4_52.jpg" class="img-fluid" alt="Flip-flop  primero-segundo  (amo-esclavo)">	<p class="tx-figura">Figura 52. Flip-flop  primero-segundo  (amo-esclavo)</p></center>
+
+    <p>Para cuando la señal de reloj es 0 la salida del inversor es 1, quedando el segundo F-F habilitado con la señal  Q del primer F-F, quedando este primer F-F deshabilitado pues su entrada de reloj es 0</p>
+    <p>La tabla de excitación son los valores que toma la entrada para que el F-F cambie, como ya se mencionó.</p>
+    <p>A este Flip-Flop  Tipo D  también se le llama tipo espejo puesto que la salida Q sigue a la entrada de excitación D</p>
+
+    <br>
+    <center><img src="imas/u4/u4_t32.jpg" class="img-fluid" alt="Tabla de excitación Flip-flop  tipo D">	<p class="tx-figura">Tabla 32. Tabla de excitación Flip-flop  tipo D</p></center>
+  
+    <p class="titulin">Flip-Flop  Tipo JK</p>
+    <p>En la figura 53…  se muestra el circuito del F-F tipo JK</p>
+
+    <br>
+		<center><img src="imas/u4/u4_53.jpg" class="img-fluid" alt="Diagrama de Flip-flop tipo JK">	<p class="tx-figura">Figura 53. Diagrama de Flip-flop tipo JK</p></center>
+
+    <p class="titulin">Flip-Flop  Tipo T</p>
+
+    <br>
+		<center><img src="imas/u4/u4_54.jpg" class="img-fluid" alt="Tabla excitación Flip-Flop  Tipo T">	<p class="tx-figura">Figura 54. Tabla excitación Flip-Flop  Tipo T</p></center>
+
+    <p><b><i>Ejemplo 1.-</i></b>Diseña el circuito para  abrir y cerrar una puerta.</p>
+    <p><b><i>Solucion</i></b>El latch que se utilizará será tipo D. Suponiendo que se tienen 2 botones, uno para abrir  (rojo) y otro para cerrar (verde) la  puerta, el diagrama será el siguiente. Se usa un solo botón que mecánicamente está en rojo o verde pero no en ambos.</p>
+  
+    <br>
+		<center><img src="imas/u4/u4_55.jpg" class="img-fluid" alt="Circuito para  abrir y cerrar una puerta.">	<p class="tx-figura">Figura 55. Circuito para  abrir y cerrar una puerta.</p></center>
+
+    <p>El funcionamiento de este sistema, es el siguiente:</p>
+    
+    <li>Cuando se presione el botón ira a rojo, la puerta permanecerá cerrada.</li>
+    <li>Si se presiona nuevamente estando en rojo, el botón ira a verde, la puerta permanecerá abierta.</li>
+    <li>No se pueden estar en los dos estados pues mecánicamente lo impide el botón.</li>
+    
+ 
+    <p class="titulin">Multivibradores</p>
+    <p>A los circuitos multivibradores también se les conoce como circuitos astable o monoestable.</p>
+    
+    
+    <li>Circuito astable, el circuito oscila indefinidamente sin necesidad de señal de inicio o disparo.</li>
+    <li>Circuito monoestable, el circuito cambia a estado alto a partir de una señal de control o disparo.</li>
+    
+
+    <p>Al circuito multivibrador astable se les conoce más comúnmente como Circuito de Reloj. Este circuito oscila por sí mismo sin necesidad de señal externa.</p>
+    <p>Aunque se pueden construir varios tipos de multivibradores u osciladores, el más común es el construido a base del circuito integrado LM555 o comúnmente llamado temporizador 555.</p>
+    <p>Este tiene la ventaja de que se puede emplear como circuito estable o monoestable.</p>
+    <p>Es muy usado para generar la señal de reloj que se emplea en los circuitos de FF.</p>
+
+    <br>
+		<center><img src="imas/u4/u4_56.jpg" class="img-fluid" alt="Circuito de reloj empleando CI  LM555.">	<p class="tx-figura">Figura 56. Circuito de reloj empleando CI  LM555.</p></center>
+
+    <p>Se muestra el circuito de reloj, el capacitor C se carga a través de RA y RB  con los valores de resistencias y el capacitor, se determina el tiempo para la forma de onda.</p>
+
+    <br>
+		<center><img src="imas/u4/u4_57.jpg" class="img-fluid" alt="Forma de onda del generador con LM555">	<p class="tx-figura">Figura 57. Forma de onda del generador con LM555</p></center>
+
+    <p>La salida a valor alto se determina por el tiempo TH</p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TH = 0.693(RA + RB)C ∙∙∙∙∙∙∙∙∙∙ 1</p>
+    <p>La salida a valor bajo se determina por el tiempo TL</p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TL = 0.639 RBC ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙2</p>
+    <p>Luego entonces el tiempo total estará dado por TT= TH + TL</p>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TT= 0.693(RA +2RB)C∙∙∙∙∙∙∙∙∙∙∙∙∙3</p>
+
+    <p><b><i>Ejemplo 2.-</i></b>Determina los valores de C, RA y RB para una señal de reloj de 1 seg. con estado alto y bajo iguales.</p>
+    <p><b><i>Solucion:</i></b>TH = 0.5 = 0.693(RA + RB)C∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙1
+
+    <p> TL =  0.5 = 0.639 RBC∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙2</p>
+
+    <p>En la ecuación 2 hacemos C=1 µF   por lo que</p>
+    <p>TL =  0.5 = 0.639 RB (1x10-6)</p>
+    <p>RB= 0.5 ∕ 0.693(1x10-6)</p>
+    <p>RB= 0.7215x10-6 = 721.5 Khom</p>
+    <p>Para TH=0.5=0.693(RA + RB)C</p>
+    <p>Fijamos C=1 µF   y obtuvimos para RB= 0.7215x10-6 = 721.5 Khom</p>
+    <p>Por tanto  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TH=0.5=0.693(RA + 7215x10-6)( 1x10-6)</p>
+    <p>RA = 0.5 ∕ 0.693(1x10-6)  - 1</p>
+    <p>RA = 0.7215x10-6 + 1</p>
+    <p>Despreciando el valor de -1, tenemos que RB = RA = 0.7215x10-6 = 721.5 Khom</p>
+    <p>Por lo que el circuito queda como </p>
+
+    <br>
+		<center><img src="imas/u4/u4_58.jpg" class="img-fluid" alt="Circuito temporizador para 1 seg con TL= TH">	<p class="tx-figura">Figura 58. Circuito temporizador para 1 seg con TL= TH</p></center>
+
+    <p><b><i>Ejemplo 3.-</i></b>Diseñar un circuito monoestable con el 555</p>
+    <p>Circuito monoestable tiene un estado o siempre está en cero o L, pero cuando se pulsa el botón inicia un estado alto H, es decir cada vez que se pulsa el botón inicia un estado alto H, que termina según se haya diseñado el lapso de tiempo.</p>
+
+    <br>
+		<center><img src="imas/u4/u4_59.jpg" class="img-fluid" alt="Diagrama del circuito monoestable con el CI 555">	<p class="tx-figura">Figura 59. Diagrama del circuito monoestable con el CI 555</p></center>
+
+    <p>Formula del tiempo  T= 1.1RC</p>
+    <p>Para un lapso de tiempo de 1 se quedaría:</p>
+    <p>Se fija el valor de C= 1 µF entonces  T=1=1.1Rx1x10-6</p>
+    <p>Despejando R se tiene</p>
+    
+    <br>
+		<center><img src="imas/u4/u4_formula.png" class="img-fluid" alt="Formula">	<p class="tx-figura">Formula 1. Formula</p></center>
+
+    <p>El circuito quedaría con C= 1 µF y R= 1 M Ω si no se requiere un 1 seg exacto, de lo contrario si hay que poner los valores de diseño.</p>
+    
+		<br>
+		<a href="unidad3_5" target="_self"><img src="imas/btn_atras.png" class="bot" style="float:left;"></a>
+		<a href="unidad4_2.html" target="_self"><img src="imas/btn_adelante.png" class="bot" style="float:right;"></a>
+
+
+
+	
+	</div>
+	  
+	  <div id="pleca_botones"><center><a href="pdf/ejercicios_u4.pdf"  target="_blank"><img src="imas/btn_ejercicios4.png" class="descargable" alt="descargar ejercicios"></a> &nbsp; &nbsp; <a href="pdf/soluciones_u4.pdf"  target="_blank"><img src="imas/btn_solucion4.png" class="descargable" alt="descargar soluciones"></a></center></div>
+	
+
+	  
+	  <br><br><br><br><br><br><br><br><br>
+	  
+
+<script src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+

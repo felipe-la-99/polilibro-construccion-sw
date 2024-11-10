@@ -1,0 +1,240 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+  
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sistemas digitales</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">	
+  </head>
+  
+  
+  <body>
+	
+<div id="menucin">
+<img src="imas/menu.jpg" id="menucito1" class="img-fluid d-lg-block d-md-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_m.jpg" id="menucito2" class="img-fluid d-md-block d-lg-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_sm.jpg" id="menucito3" class="img-fluid d-block d-md-none" alt="Encabezado de Sistemas Digitales">	
+	<p id="botones_menu" class="d-md-block d-sm-none d-none"> <a href="index.html" target="_self" class="bot-menu"> Inicio </a> &nbsp;&nbsp; <a href="unidad1.html" target="_self" class="bot-menu">  Unidad I </a> &nbsp;&nbsp; <a href="unidad2.html" target="_self" class="bot-menu">  Unidad II </a> &nbsp;&nbsp; <a href="unidad3.html" target="_self" class="bot-menu">  Unidad III </a> &nbsp;&nbsp; <a href="unidad4.html" target="_self" class="bot-menu"> Unidad IV </a>   &nbsp;&nbsp; <a href="unidad5.html" target="_self" class="bot-menu">  Unidad V </a> &nbsp;&nbsp; <a href="bibliografia.html" target="_self" class="bot-menu">  Bibliografía </a> </p>
+</div>
+	  
+	  
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary d-md-none">
+	
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	  
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li id="espacio"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        
+       
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad1.html">Unidad I</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad2.html">Unidad II</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad3.html">Unidad III</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad4.html">Unidad IV</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad5.html">Unidad V</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+        </li>
+		  
+		  
+      </ul>
+    </div>
+  </div>
+</nav>
+	 
+	</div>
+	  
+
+	  
+
+		  <br><br><br>
+	<div class="container">
+		
+		<center><img src="imas/portada_u4.jpg" class="img-fluid" alt="Unidad IV"></center>
+		<br>
+		
+		<div class="card-header">4.2 Contadores</div>
+
+		<p>Los circuitos llamados contadores, tienen en su salida la capacidad de presentar una sucesión de estados predefinidos con anterioridad, pueden requerir o no de una excitación externa es decir los pulsos de excitación se pueden generar con un reloj o de forma externa. y podrían presentarse en forma regular o al azar. Por ejemplo con los led´s apropiados en la salida, se puede contar la secuencia 1,2,3,4,5,6,7,8,9,0 y se llamaría contador de décadas, o la secuencia binaria a 4 dígitos 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,.  Es conveniente también señalar que se puede establecer cualquier secuencia deseada, por ejemplo 2,4,6,8,… o 1,2,4,8  entre otras.</p>
+		<p>Es decir, un contador es un circuito secuencial de aplicación general, cuyas salidas representan en un determinado código el número de pulsos que se presentan a la entrada del circuito.</p>
+    <p>Están constituidos por una serie de flip-flops conectados entre sí de modo que las salidas de estos cambian de estado cuando se aplican impulso a la entrada.</p>
+    <p>(para un estudio detallado de estos circuitos se recomienda el libro de R Tocci  Sistemas Digitales, principios y aplicaciones, Prentice Hall 8ª Edición 2004)</p>
+
+    <br>
+    <center><img src="imas/u4/u4_60.jpg" class="img-fluid" alt="Contador">	<p class="tx-figura">Figura 60. Contador</p></center>
+
+    <p>La capacidad de un contador es el número más elevado, expresado en cualquiera de los códigos binarios, que puede ser representado en sus salidas es decir pueden ser Binarios, decimal o módulo M </p>
+    
+    <li>Binarios el número de estados es múltiplo de dos.</li>
+    <li>Decimales el número de estados es múltiplo de 10 </li>
+    <li>Módulo M se refiere a un número M de estados, en otras palabras, a la base M en que se desea que cuente.</li>
+    
+
+    <p>Dependiendo del modo de operación, los contadores pueden ser:</p>
+    
+    <li>Ascendentes si su cuenta se incrementa con cada impulso.</li>
+    <li>Descendentes, si su cuenta disminuye.</li>
+    
+
+    <p>Los contadores se dividen en asíncronos y síncronos </p>
+    
+    <li>En los asíncronos, la señal de reloj se aplica a la entrada del primer biestable, la salida de éste a la entrada de reloj del siguiente, y así sucesivamente el tiempo de propagación de estos dispositivos, es superior al de los síncronos (la señal tiene que pasar por todos los bits menos significativos hasta llegar a un determinado bit).</li>
+    <li>Los síncronos, son aquellos en los que los pulsos de reloj se aplican simultáneamente a todos los biestables, y por tanto, todas las salidas cambian al mismo tiempo.</li>
+    
+
+    <p>Además, en todos los casos anteriores, la cuenta no tiene por qué empezar o terminar en 0, el diseño de contadores síncronos se hace de igual forma que para cualquier circuito secuencial lo que se verá en la unidad siguiente.</p>
+    <p>En resumen cuando la salida sigue un patrón de entrada determinado por un reloj se llaman síncronos,  cuando los pulsos de entradas son al azar se llaman asíncronos.</p>
+
+    <h3>4.2.1 Funcionamiento del contador asíncrono</h3>
+    <p>Para un circuito contador cuando los pulsos de entradas son al azar se llaman asíncronos, pero también se le llaman asíncronos cuando se implementa el contador con F-F en cascada, es decir uno en seguida de otro, esto provoca que la salida del primero excita al segundo, este a su vez excita el tercero, este a su vez exista al cuarto… y así sucesivamente a este contador también se le llama de Contador de Rizo</p>
+
+    <br>
+    <center><img src="imas/u4/u4_61.jpg" class="img-fluid" alt="Contador asíncrono o de rizo de 4 bits con F-F tipo J K">	<p class="tx-figura">Figura 61. Contador asíncrono o de rizo de 4 bits con F-F tipo J K</p></center>
+
+    <p>Para entender su funcionamiento se debe de tener en cuenta que los F-F solo se excitan con la transición de 1 a 0 es decir transición negativa.</p>
+    <p>El funcionamiento de este contador que se muestra en la figura 61… es:</p>
+    <p>La señal a contar se aplica en el clk del ff de entrada, al darse la transición de 1 a 0 se genera la cuenta en A, al mismo tiempo se pone 1 negado en ff B, por tanto, el ff B cambiará de estado cada vez que la salida A cambie de 1 a 0, esto se replica en los demás ff C y D con lo que se logra la cuenta de 0000 a 1111.</p>
+    <p>Cuando se llegue a la cuenta de 1111 el contador inicia una nueva cuenta empezando en 0000.</p>
+    <p>Se debe notar que las entradas J y K se encuentran en valor 1</p>
+    <p>Este contador es asíncrono puesto que los ff no cambian en sincronía con los pulsos de entrada, solo el ff A responde a estos pulsos.</p>
+    <p>Comúnmente a estos contadores se les conoce como contadores asíncronos o de rizo.</p>
+
+    <h3>4.2.2. Funcionamiento del contador síncrono</h3>
+    <p>Como ya se dijo en los contadores síncronos un mismo pulso de reloj dispara todos los flip-flops simultáneamente.</p>
+    <p>Existen varios tipos de  contadores síncronos entre los que destacan: Contador Binario, Contador Binario Ascendente-Descendente y el Contador BCD.</p>
+    
+    <p class="titulin">Contador Binario</p>
+    <p>En estos contadores el número de estados es múltiplo de dos es decir la salida es un número binario, en la figura 62 se muestra un contador binario de 4 bit, por lo que su cuenta de salida será de 0000 a 1111, el cual se construye con Flip-flop tipo JK</p>
+
+    <br>
+    <center><img src="imas/u4/u4_62.jpg" class="img-fluid" alt="Contador síncrono construido con ff tipo JK">	<p class="tx-figura">Figura 62. Contador síncrono construido con ff tipo JK</p></center>
+
+    <p>La entrada C de todos los flip-flop se conectan a una sola señal de reloj. El contador  cuenta la entrada de pulsos, si la entrada es 0, todas las entradas JK son 0, el reloj no cambia el estado del contador. Las compuertas AND genera la lógica requerida para el conteo de cada etapa Jk cada vez que en la entrada se presente un 1, de tal manera que se contara 0000,  0001, 0010, 0011…1111</p>
+    <p>Existen en el mercado CI contadores binarios como el 7493, 74161,74197 entre otros, se sugiere consultar la bibliografía para ver sus diagramas y modos de funcionamiento.</p>
+
+    <p class="titulin">Contador Binario Ascendente-Descendente</p>
+    <p>El que un contador tenga cuenta ascendente significa que cuenta en binario de 0 a 15 en caso contrario si su cuenta es de 15 a 0 será descendente.</p>
+    <p>Se pueden construir en un mismo circuito contadores en que su cuenta sea ascendente o descendente según se requiera como el que se muestra en la figura 63.</p>
+
+    <br>
+    <center><img src="imas/u4/u4_63.jpg" class="img-fluid" alt="Contador ascendente –descendente.">	<p class="tx-figura">Figura 63. Contador ascendente –descendente.</p></center>
+
+    <p>Se debe notar que el modo ascendente A↑ o descendente B↓. Se determina con el circuito de control de entrada formado por la compuerta NOT y la AND.</p>
+    <p>Esto es:</p>
+
+    <p><li>A = 0 y B = 0   El contador no cambia de estado y permanece en la misma cuenta.</li></p>
+
+    <p><li>A = 0 y B = 1, el circuito cuenta hacia abajo, porque se aplican a las entradas T las salidas complementadas de los Flip.flops.</li></p>
+
+    <p><li>A = 1 y B = 0 el circuito cuenta hacia arriba porque las entradas de los Flip-flop son normales.</li></p>
+
+    <p><li>A = 1 y B = 1 el circuito también cuenta hacia arriba por la misma razón anterior. </li></p>
+
+    <p>En el mercado también existen un gran número de CI contadores Binarios como el 7493, 74161,74163, entre otras</p>
+
+    <p><b><i>Ejemplo 4.-</i></b>Diseña un circuito, con display de 7 segmentos, que cuente del 0 al 9 según se requiera de modo ascendente o descendente, si llega la cuenta a 9 se prende un led amarillo y se detiene, pero si se llega a cero se prende un led rojo y se detiene.</p>
+    <p><b><i>Solucion:</i></b>1º  Se requiere:</p>
+    
+    
+    <li>Un display de 7 segmentos, con conector común a tierra.</li>
+    <li>U “driver” BCD a 7 segmentos para display con conector común a tierra, se selecciona el 7448.</li>
+    <li>Un contador programable que permita contar en forma ascendente o descendente según se requiera, se selecciona el 74192.</li>
+    <li>El diseño de un circuito que genere los pulsos a ser contados.</li>
+    <li>El diseño de un circuito a fin de que el contador realice la función deseada</li>
+    
+    
+    <p>2º  Únicamente se comentará el CI 74192, pues los otros dos circuitos no requieren comentario alguno:</p>
+    
+    <li>Tabla de funciones</li>
+    
+
+    <br>
+    <center><img src="imas/u4/u4_t33.jpg" class="img-fluid" alt="Tabla de funciones">	<p class="tx-figura">Tabla 33. Tabla de funciones</p></center>
+  
+    <br>
+    <center><img src="imas/u4/u4_64.jpg" class="img-fluid" alt="Diagrama de la tabla de funciones">	<p class="tx-figura">Figura 64. Diagrama de la tabla de funciones</p></center>
+
+    <p>3º  De la tabla de funciones se observa lo siguiente:</p>
+    
+    <li>Para programar PRESET = 9, poner D=1, C=0 ,B=0, A=1.  Además de poner en la conexión 14 CLR a L y la conexión 11 LD a L, las demás conexiones no importan.</li>
+    <li>Para RESET = 0, poner la conexión 14 CLR a H, las demás no importan.</li>
+    <li>Para contar pulsos en forma ascendente (UP), pulso en conexión 5 CU,   LD en H y CLR en L.</li>
+    <li>Para contar pulsos en forma descendente (DOWN), pulso en conexión 4 CD,   LD conexión 5 CU en H y 14 CLR y 11 LD en L.</li>
+    
+    <p>4º Diseño del circuito:</p>
+
+    <br>
+    <center><img src="imas/u4/u4_65.jpg" class="img-fluid" alt="Diseño del circuito">	<p class="tx-figura">Figura 65. Diseño del circuito</p></center>
+
+    
+    <ul>a)	Para contar ascendente (UP). Poner B en UP cuenta y Pulsar R (RESET), e introducir los pulsos a contar en A.</ul>
+    <ul>b)	El contador se detendrá al llegar a 9, pulsar R (RESET) para contar nuevamente.</ul>
+    <ul>c)	Para contar descendente (DOWN). Poner B en cuenta DOWN y Pulsar P (PRESET), e introducir los pulsos a contar en A.</ul>
+    <ul>d)	El contador se detendrá al llegar a 0, pulsar P (PRESET) para contar nuevamente.</ul>
+    
+  
+    <p class="titulin">Contador BCD o contador de década</p>
+
+    <p>Este tipo de contador da su cuenta de salida como números binario del 0000 al 1001 es decir del 0 al 9 en decimales, y al llegar al 9 regresa a cero. Es muy empleado en razón que los humanos usamos el sistema decimal.</p>
+    <p>En el mercado también existen un gran número de CI contadores de década como el 7490, 74160,74162, entre otros</p>
+
+    <p class="titulin">Contador Programable</p>
+
+    <p>Esta función de ser programable permite decidir el número de inicio o final de la cuenta, es muy útil, baste señalar el caso de que solo se desee contar hasta 5 y se regresa.</p>
+    <p>El uso de estos circuitos lo veremos en la unidad 4.4.1 Diseño de circuitos programables.</p>
+
+		<br>
+		<a href="unidad4.html" target="_self"><img src="imas/btn_atras.png" class="bot" style="float:left;"></a>
+		<a href="unidad4_3.html" target="_self"><img src="imas/btn_adelante.png" class="bot" style="float:right;"></a>
+
+
+
+	
+	</div>
+	  
+	  <div id="pleca_botones"><center><a href="pdf/ejercicios_u4.pdf"  target="_blank"><img src="imas/btn_ejercicios4.png" class="descargable" alt="descargar ejercicios"></a> &nbsp; &nbsp; <a href="pdf/soluciones_u4.pdf"  target="_blank"><img src="imas/btn_solucion4.png" class="descargable" alt="descargar soluciones"></a></center></div>
+	
+
+	  
+	  <br><br><br><br><br><br><br><br><br>
+	  
+
+<script src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+

@@ -1,0 +1,353 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+  
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sistemas digitales</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">	
+  </head>
+  
+  
+  <body>
+	
+<div id="menucin">
+<img src="imas/menu.jpg" id="menucito1" class="img-fluid d-lg-block d-md-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_m.jpg" id="menucito2" class="img-fluid d-md-block d-lg-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_sm.jpg" id="menucito3" class="img-fluid d-block d-md-none" alt="Encabezado de Sistemas Digitales">	
+	<p id="botones_menu" class="d-md-block d-sm-none d-none"> <a href="index.html" target="_self" class="bot-menu"> Inicio </a> &nbsp;&nbsp; <a href="unidad1.html" target="_self" class="bot-menu">  Unidad I </a> &nbsp;&nbsp; <a href="unidad2.html" target="_self" class="bot-menu">  Unidad II </a> &nbsp;&nbsp; <a href="unidad3.html" target="_self" class="bot-menu">  Unidad III </a> &nbsp;&nbsp; <a href="unidad4.html" target="_self" class="bot-menu"> Unidad IV </a>   &nbsp;&nbsp; <a href="unidad5.html" target="_self" class="bot-menu">  Unidad V </a> &nbsp;&nbsp; <a href="bibliografia.html" target="_self" class="bot-menu">  Bibliografía </a> </p>
+</div>
+	  
+	  
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary d-md-none">
+	
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	  
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li id="espacio"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        
+       
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad1.html">Unidad I</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad2.html">Unidad II</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad3.html">Unidad III</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad4.html">Unidad IV</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad5.html">Unidad V</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+        </li>
+		  
+		  
+      </ul>
+    </div>
+  </div>
+</nav>
+	 
+	</div>
+	  
+
+	  
+
+		  <br><br><br>
+	<div class="container">
+		
+		<center><img src="imas/portada_u4.jpg" class="img-fluid" alt="Unidad IV"></center>
+		<br>
+		
+		<div class="card-header">4.4. Máquinas secuenciales de Moore y Mealy</div>
+    <br>
+
+    <p>Los circuitos secuenciales se clasifican dentro de una categoría conocida como máquinas de estado, de la cual se distinguen comúnmente dos tipos:</p>
+    <ul>
+    <li>Máquina de Moore: Las salidas solo dependen del estado presente, las salidas del sistema son únicamente sincrónicas. Un ejemplo de este tipo de máquinas de estado son los contadores.</li>
+    </ul>
+
+    <br>
+    <center><img src="imas/u4/u4_68.jpg" class="img-fluid" alt="Máquina de estados de Moore">	<p class="tx-figura">Figura 68. Máquina de estados de Moore</p></center>
+    
+    <li>Máquina de Mealy: En esta máquina de estados las salidas se encuentran determinadas por el estado presente del sistema y por las entradas... El diagrama de bloques representativo de esta máquina se muestra en la figura 68 donde se observa que las salidas del sistema son tanto sincrónicas como asincrónicas.</li>
+ 
+    <br>
+    <center><img src="imas/u4/u4_69.jpg" class="img-fluid" alt="Máquina de estados de Mealy">	<p class="tx-figura">Figura 69. Máquina de estados de Mealy</p></center>
+
+    <p>Se distinguen dos tipos circuitos secuenciales: <p class="titulin">Síncronos y asíncronos</p></p>
+    <p>Los síncronos, requieren una señal de control procedente de un generador externo al propio circuito, que funciona, de modo que si no se aplica dicha señal no se hacen efectivos los valores presentes en las entradas. Este método se emplea cuando el sistema electrónico es complejo y los tiempos de conmutación de los diversos dispositivos que lo constituyen son distintos. La señal de control, también denominada reloj (CLK Pulse), se aplica a las entradas del mismo nombre de cada bloque integrado para sincronizar la transmisión de datos o información a través del sistema. La frecuencia de la señal eléctrica debe adaptarse a la velocidad de conmutación del dispositivo más lento del circuito.</p>
+    <p>En cambio, los sistemas secuenciales asíncronos no poseen entrada de reloj, y  los cambios en las variables de estado interno y los valores de salida se producen al variar los valores de las entradas del circuito.</p>
+
+    <p class="titulin">Diagramas de estado para máquina de Mealy</p>
+
+    <p>En estos apuntes se hará énfasis en las máquinas de Mealy, que son las más comúnmente empleadas en la solución de diseño para sistemas secuenciales. Todo ello sin dejar de reconocer la importancia de las máquinas de More.</p>
+    <p>Un diagrama de estados es una representación gráfica que indica la secuencia de los estados que se presentan en un circuito secuencial, teniendo en cuenta las entradas y salidas. El diagrama se forma con círculos y líneas. Los círculos representan los estados del circuito secuencial y cada uno de ellos contiene un número que identifica su estado. Las líneas indican las transiciones entre estados y se marcan con dos números separados por un (/), estos dos números corresponden a la entrada y salida presentes antes de la transición. </p>
+
+    <br>
+    <center><img src="imas/u4/u4_70.jpg" class="img-fluid" alt="Diagrama de estados">	<p class="tx-figura">Figura 70. Diagrama de estados</p></center>
+
+    <p class="titulin">Tablas de estado</p>
+
+    <li>Estado presente</li>
+    <li>Entradas</li>
+    <li>Estado siguiente</li>
+    <li>Salidas</li>
+    <li>Excitación.</li>
+        
+    <br>
+    <center><img src="imas/u4/u4_t34.jpg" class="img-fluid" alt="Tabla de estado">	<p class="tx-figura">Tabla 34. Tabla de estado</p></center>
+
+    <p>Las variables del estado presente más las de entrada definen el número de combinaciones posibles. </p>
+    <p>La tabla de estado para un circuito secuencial con m flip-flops y n entradas tiene 2m+n filas. El estado siguiente tiene m columnas, y el número de columnas depende del número de salidas.</p>
+    <p>Esto es para la tabla anterior:</p>
+    <p>Estados presentes, 2, (A y B) + 1 entrada X = 3 luego entonces se tienen 23 = 8 combinaciones posibles.</p>
+    <p>Las ecuaciones del circuito se establecen con los valores de las columnas de salidas y excitación que dependen del flip flop a emplear.</p>
+    <p>Es recomendable usar FF tipo D pues recordemos que su excitación se denomina espejo, es decir si entra un 0 la salida a estado siguiente será 0</p>
+
+    
+
+    <h3>4.4.1. Metodología para el diseño de sistemas secuenciales síncronos simples</h3>
+
+    <p>Para la realización del diseño de un circuito secuencial es conveniente seguir los cuatro pasos siguientes:</p>
+  
+    <ol>
+      <li>Definición del problema.</li>
+      <li>Establecer el diagrama de estados que den solución al problema.</li>
+      <li>Construir Tabla de Verdad del diagrama propuesto y realizar la obtención y reducción de ecuaciones.</li>
+      <li>Dibujar el diagrama esquemático del circuito lógico que dé solución al problema.</li>
+    </ol>
+    
+    
+    <p><b>1.	Definición del problema. En este punto conviene definir y entender perfectamente el problema propuesto, para ello, como resultado final de este punto tendremos definidos. </b></p>
+
+    <li>Si existen valor inicial y valor final
+    Es decir, si el circuito deberá iniciar en algún valor determinado o si también tendrá un valor en que termine la secuencia.</li>
+    <br>
+    <li>Número de entradas de control.
+    Se refiere a que si el sistema tendrá señales de entrada que dependiendo de su valor modifiquen la secuencia que el circuito deberá ejecutar, es importante tener en cuenta que Una sola entrada tiene dos valores diferente es decir para la entrada única E1 se tendrá E1=0 y E1= 1.
+    Para dos entradas E1 y E2 se tendrán 4 valores; 00, 01, 10, y 11</li>
+    <br>
+    <li>Número de Estados requerido.
+    Se refiere a cuántos estados resuelven el problema propuesto.</li>
+    <br>
+    <li>Número de FF a emplear.
+    Determinar el Número de FF necesario para generar los estados, se determina con la relación 2No de FF  ≥ No de Estados.
+    Por ejemplo para cuatro estados, será el No de FF = 2, pues 22 ≥4.
+    Para 9 estados se requieren 4 FF, pues 24≥9.</li>
+    <br>
+    <li>Número de bits salidas.
+    Es definir el número bits que permitirán tener la salida requerida.
+    Por ejemplo para una secuencia que tenga como número mayor 111101 se requieren 6 bits de salida.</li>
+    <br>
+    <li>Determinar si será una máquina de estados tipo More o Mealy.
+    Finalmente conviene definir con qué tipo de máquina de estados se propondrá la solución. Comentario: es posible emplear los dos tipos de máquina para resolver un mismo problema, el decidir cuál conviene, depende del contexto general de donde se desprende el problema a resolver. Ilustrarlo queda fuera del propósito de estos apuntes.</li>
+
+    <br>
+    <p><b>2. Establecer el diagrama de estados que dé solución al problema.</b></p>
+
+    <p>Dependiendo del tipo de máquina a emplear se propone una solución en diagrama de estados, se deberá verificar a detalle y cubriendo todas las posibilidades posibles que verdaderamente sea una solución al problema a resolver. Tener en cuenta que si se tienen por decir, 2 entradas de control, cada estado deberá tener cuatro posibles salidas, hacia el mismo u otro estado. Esto es n entradas da 2n salidas. También existen técnicas para reducir estados redundantes o repetidos, se recomienda ver los libros señalados en la bibliografía.</p>
+
+    <p><b>3.- Construir Tabla de Verdad del diagrama propuesto y  realizar la reducción de ecuaciones.</b></p>
+
+    <p>A partir del diagrama de estados se obtiene la información para determinar la tabla de verdad, llenando los campos que se proponen.</p>
+    <p>En la figura se muestra una tabla de estados para 2 FF, FA y FB, con una entrada E1 con un solo bit de salida Y y empleando FF tipo D. </p>
+
+    <br>
+    <center><img src="imas/u4/u4_t35.jpg" class="img-fluid" alt="Ejemplo de tabla de estados">	<p class="tx-figura">Tabla 35. Ejemplo de tabla de estados</p></center>
+
+    <p>Como ya se indicó anteriormente, debemos notar que las columnas de estado presente y entrada definen el tamaño de la tabla, para este ejemplo es 23 por tener 2 estados + 1 bit de salida.</p>
+    <p>Las ecuaciones que se buscan las definen las columnas de salidas Y y excitación DA y DB.</p>
+
+    <p><b>4.- Dibujar el diagrama esquemático del circuito lógico.</b></p>
+
+    <p>Se recomienda que en el dibujo esquemático, además de dibujar las compuertas con su símbolo, se indiquen los números correspondientes de la compuerta a utilizar.</p>
+    <p>El procedimiento de diseño se ilustra con los siguientes ejemplos:</p>
+
+    <p><b><i>Ejemplo 5.-</i></b> Diseña un circuito contador que siga la secuencia… 0, 2, 4, 8,… no tiene entrada, no tiene valor inicial ni valor final. Empleando máquina de Moore.</p>
+    <p><b><i>Solución.</i></b> Para este problema en particular en que se requiere generar la secuencia 0,2,4,8 en binario, tendremos:
+    <li>¿Existen valor inicial y valor final?</li>
+    <p>R.- no existen</p>
+    <br>
+    <li>¿El número de entradas de control?</li>
+    <p>R.- no existen</p>
+    <br>
+    <li>¿Número de Estados requerido?</li>
+    <p>R.- se necesitan 4 estados, para generar cada uno de los valores de  0, 2, 4 y 8</p>
+    <br>
+    <li>Número de FF a emplear  ( se tiene la siguiente ecuación: 2FF= Número de estados)</li>
+    <p>R.- se usarán 2 FF para generar los 4 estados necesarios.</p>
+    <br>
+    <li>Número de bits salidas</li>
+    <p>R.-  Se definen X, Y, Z, y W como bits de salida. Para poder tener el mayor número 810 = (1 0 0 0)2</p>
+    <br>
+    <li>Determinar si será una máquina de estados tipo More o Mealy. </li>
+    <p>Para  este ejemplo se propone usar una máquina tipo More, puesto que la salida está directamente relacionada con el estado.</p>
+    </p>
+
+    <ul>2.- Diagrama de estados (maquina de Moore).</ul>
+ 
+    <br>
+    <center><img src="imas/u4/u4_71.jpg" class="img-fluid" alt="Diagrama de estados (maquina de Moore)">	<p class="tx-figura">Figura 71. Diagrama de estados (maquina de Moore)</p></center>
+
+    <ul>3.- Construir Tabla de Verdad del diagrama propuesto y realizar la reducción de ecuaciones.</ul>
+    <p>Para este ejemplo la tabla de estados no contiene la columna de entradas por lo tanto el tamaño de la tabla será de 22.</p>
+
+    <br>
+    <center><img src="imas/u4/u4_t36.jpg" class="img-fluid" alt="Tabla de verdad del  ejemplo 4">	<p class="tx-figura">Tabla 36. Tabla de verdad del  ejemplo 4</p></center>
+
+    <p>Del diagrama se observa que del estado 00 se va al 01 y que su salida es 0000, del estado 01 se va al 10 con salida 0010, del 10 al 11 con 0100 de salida y finalmente del 11 se va al 00 con salida 1000.  lo que se refleja en la tabla.</p>
+    <p>Finalmente en la columna de excitación se contempla el uso de FF tipo D por lo que para  DA y DB  se pondrán los valores de A y B de la columna del estado siguiente, pues recordemos que a los FF tipo D se les conoce también como de espejo.</p>
+    <p>Las ecuaciones que se buscan son </p>
+    <p>X = AB &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Z = A’B </p>
+    <p>Y = AB’ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; W = 0</p>
+    <p>DA = A’B + AB’</p>
+    <p>DB = A’B’ + AB</p>
+
+    <center><div class="actividad">
+    <h4>Actividad complementaria 1:</h4> <hr>
+    <p class="text-center"><i></i>Desarrolla la solución para este ejemplo usando máquina de Mealy. </p>   
+    </div></center>
+    <br>
+
+    <p><b><i>Ejemplo 6.-</i></b>Diseña circuito en donde si la entrada es 1 se muestra la secuencia: …8,4,2,1… y si la entrada es = 0 se muestre la secuencia … 1,2,4,8…empleando máquina de Mealy.</p>
+    <p><b><i>Solución</i></b>
+    <ul>1.	Definición del problema.</ul>
+    <br>
+    <p>Si E= 1 entonces mostrar …8,4,2,1…</p>
+    <br>
+    <p>E= 0 entonces mostrar …1,2,4,8,…</p>
+    <br>
+    <p>No existe valor inicial ni valor final.</p>
+    <br>
+    <p>Número de entradas = 1 = E</p>
+    <br>
+    <p>Número de salidas = 4 = X, Y, Z, W</p>
+    <br>
+    <p>Número de estados = 4  por tanto el No de FF = 2 = A, B</p>
+    <br>
+    </p>
+    
+    <ul>Diagrama de estados  (máquina de Mealy).</ul>
+
+    <br>
+    <center><img src="imas/u4/u4_72.jpg" class="img-fluid" alt="Diagrama de estados (máquina de Mealy)">	<p class="tx-figura">Figura 72. Diagrama de estados (máquina de Mealy)</p></center>
+
+    <br>
+    <center><img src="imas/u4/u4_t37.jpg" class="img-fluid" alt="Tabla de verdad">	<p class="tx-figura">Tabla 37. Tabla de verdad</p></center>
+
+    <p>Ecuaciones</p>
+    <p>X = ∑(3,6)</p>
+    <p>Y = ∑(2,4)</p>
+    <p>Z = ∑(2,7)</p>
+    <p>W = ∑(0,5</p>
+    <p>DA = ∑(1,2,4,7)</p>
+    <p>DB = B</p>
+
+    <br>
+    <center><img src="imas/u4/u4_73.jpg" class="img-fluid" alt="Diagrama esquemático">	<p class="tx-figura">Figura 73. Diagrama esquemático</p></center>
+
+    <p><b><i>Ejemplo 7.-</i></b>Utilizando máquina de Mealy. Diseña el diagrama de estados de un circuito secuencial con una entrada W sincronizada a la señal de reloj, que acepte la secuencia 0011 y que cada vez que la detecte, su salida se Q ponga en ALTO y regrese a condiciones iniciales para detectar de nuevo la secuencia.</p>
+    <p><b><i>Solución</i></b></p>
+    <ul>1. Definición del problema.</ul>
+    <br>
+    <p>A como se van presentando los valores de 0 o 1 en la entrada W, se “generará” una secuencia de 0 y 1,( …00001100101110011011000100…), se desea detectar cuando ocurra 0011 poniendo en ALTO la salida Q y restableciendo las condiciones iniciales a fin de detectar nuevamente la ocurrencia de otra secuencia.</p>
+    <br>
+    <ul>2.- Diagrama de estados </ul>
+    <br>
+    <ul>a).- máquina de Mealy,  Diagrama de estados para el detector de secuencia 0011</ul>
+    <br>
+
+    <br>
+    <center><img src="imas/u4/u4_74.jpg" class="img-fluid" alt="Diagrama de estados para el detector de secuencia 0011">	<p class="tx-figura">Figura 74. Diagrama de estados para el detector de secuencia 0011</p></center>
+
+    <p><b><i>Ejemplo 8.-</i></b>Empleando máquina de Moore, determina las ecuaciones para el circuito.</p>
+    <p><b><i>Solución</i></b></p>
+    <p>En el modelo de Moore Figura 74. la salida está en el mismo estado por eso se genera un estado más que en la máquina de Mealy, además de que después de detectar la secuencia correcta 0011 en E4, la entrada siguiente es considerada como el primer dato.  </p>
+    
+    <br>
+    <center><img src="imas/u4/u4_75.jpg" class="img-fluid" alt="Diagrama de estados para el detector de secuencia 0011 (primer dato)">	<p class="tx-figura">Figura 74. Diagrama de estados para el detector de secuencia 0011 (primer dato)</p></center>
+
+    <br>
+    <center><img src="imas/u4/u4_t38.jpg" class="img-fluid" alt="Detector de la secuencia 0011 (máquina de Moore)">	<p class="tx-figura">Tabla 38. Detector de la secuencia 0011 (máquina de Moore)</p></center>
+
+   <p>Las ecuaciones son:</p>
+    <p>Q= ∑(8,9)</p>
+    <p>DA= ∑(7)</p>
+    <p>DB= ∑(2,4,5,6)</p>
+    <p>DC= ∑(0,5,8)</p>
+
+    <center><div class="actividad">
+    <h4>Actividad complementaria 2:</h4> <hr>
+    <p class="text-center"><i></i>Construye la Tabla de Verdad del diagrama propuesto y  realiza la reducción de ecuaciones.</p>   
+    </div></center>
+    <br>
+
+    <p>Las ecuaciones son:</p>
+    <p>Q = ABW ∑(7)</p>
+    <p>DA = A’BW’ + AB’W’ + AB’W = ∑(2,4,5)</p>
+    <p>DB = A’B’W’ + AB’W + ABW’= ∑(0,5,6)</p>
+
+
+
+    <center><div class="actividad">
+    <h4>Actividad complementaria 3:</h4> <hr>
+    <p class="text-center"><i></i>Construye el diagrama esquemático del circuito. </p>   
+    </div></center>
+    <br>
+
+
+
+
+
+
+		
+		<br>
+		<a href="unidad4_3.html" target="_self"><img src="imas/btn_atras.png" class="bot" style="float:left;"></a>
+		<a href="unidad4_5.html" target="_self"><img src="imas/btn_adelante.png" class="bot" style="float:right;"></a>
+
+
+
+	
+	</div>
+	  
+	  <div id="pleca_botones"><center><a href="pdf/ejercicios_u4.pdf"  target="_blank"><img src="imas/btn_ejercicios4.png" class="descargable" alt="descargar ejercicios"></a> &nbsp; &nbsp; <a href="pdf/soluciones_u4.pdf"  target="_blank"><img src="imas/btn_solucion4.png" class="descargable" alt="descargar soluciones"></a></center></div>
+	
+
+	  
+	  <br><br><br><br><br><br><br><br><br>
+	  
+
+<script src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+

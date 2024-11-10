@@ -1,0 +1,543 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+  
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sistemas digitales</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">	
+  </head>
+  
+  
+  <body>
+	
+<div id="menucin">
+<img src="imas/menu.jpg" id="menucito1" class="img-fluid d-lg-block d-md-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_m.jpg" id="menucito2" class="img-fluid d-md-block d-lg-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_sm.jpg" id="menucito3" class="img-fluid d-block d-md-none" alt="Encabezado de Sistemas Digitales">	
+<p id="botones_menu" class="d-md-block d-sm-none d-none"> <a href="index.html" target="_self" class="bot-menu"> Inicio </a> &nbsp;&nbsp; <a href="unidad1.html" target="_self" class="bot-menu">  Unidad I </a> &nbsp;&nbsp; <a href="unidad2.html" target="_self" class="bot-menu">  Unidad II </a> &nbsp;&nbsp; <a href="unidad3.html" target="_self" class="bot-menu">  Unidad III </a> &nbsp;&nbsp; <a href="unidad4.html" target="_self" class="bot-menu"> Unidad IV </a> &nbsp;&nbsp; &nbsp;&nbsp; <a href="bibliografia.html" target="_self" class="bot-menu">  Bibliografía </a> </p>
+</div>
+	  
+	  
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary d-md-none">
+	
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	  
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li id="espacio"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        
+       
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad1.html">Unidad I</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad2.html">Unidad II</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad3.html">Unidad III</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad4.html">Unidad IV</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+        </li>
+		  
+		  
+      </ul>
+    </div>
+  </div>
+</nav>
+	 
+	</div>
+	  
+
+	  
+
+		  <br><br><br>
+	<div class="container">
+		
+		<center><img src="imas/portada_u1.jpg" class="img-fluid" alt="Unidad I"></center>
+		<br>
+		
+		<div class="card-header">1.3. Sistemas numéricos posicionales  </div><br>
+		<p>Una característica de los sistemas digitales es su capacidad para manipular elementos discretos de información. Todo conjunto restringido a un número finito de elementos contiene información discreta. Ejemplos de conjuntos discretos son los 10 dígitos decimales, las 28 letras del alfabeto, y las 64 casillas de un tablero de ajedrez.</p>
+		<p>En casi todos los sistemas digitales actuales, las señales que se manejan emplean sólo dos valores discretos, por los que se les llama Binarios. Un dígito binario, se le llama Bit y este solo tiene dos valores: 0 y 1. </p>
+		<p>Existe una correspondencia entre los números binarios que son por así decir, los que “entienden” los sistemas digitales y los números decimales que entendemos los seres humanos.</p>
+		<p>Los números decimales se expresan en lo que se conoce como Sistema numérico posicional, porque los dígitos del 0 al 9 adquieren valor diferente de acuerdo a la posición que ocupan en un número decimal, por ejemplo el número N = 5278.36 representa una cantidad igual a 5 millares más 2 centenas más 7 decenas más 8 unidades con 3 décimas y 6 centésimas. Este número también se puede expresar como:</p>
+		<p class="text-center">N   = 5278.36 =    5 x 103 +  2 x 102 + 7 x 101 +8 x 100 . 3 x10-1 + 6 x 10-2</p>
+		<p>Notación en la que se observa lo siguiente: Por convención el número N se representa normalmente por los coeficientes y se deducen las potencias de 10 por la posición que ocupa cada coeficiente.</p>
+		<p>La potencia se enumera a partir del punto decimal de derecha a izquierda empezando con el número 0 para los números enteros, y para los decimales de izquierda a derecha a partir del punto decimal empezando con el número -1.</p>
+		<p>Se dice que el sistema decimal es base 10 porque usa 10 dígitos, del 0 al 9, y los coeficientes se multiplican por potencias de 10. </p>
+		<p>Al sistema que tenga dos dígitos, 0 y 1, y sus coeficientes se multipliquen por potencias de 2 se le llama sistema de base 2 o números binarios. Al sistema de 8 dígitos, de 0 al 7, y sus coeficientes se multipliquen por potencias de 8 se le llama sistema de base 8 o números octales y así sucesivamente. En la tabla 1 se muestran las equivalencias entre sistemas numéricos de diferente base.</p>
+		
+		<br>
+		<center><img src="imas/u1/u1_t1.jpg" class="img-fluid" alt="Sistemas de numeración en diferente base">	<p class="tx-figura">Tabla 1. Sistemas de numeración en diferente base</p></center>
+		
+		
+		<p class="titulin">1.3.1. Conversión entre sistemas</p>
+		<p>Para distinguir entre números con diferente base, se encierran los coeficientes en paréntesis y se añade un subíndice que indica la base empleada.</p>
+		<p>La conversión entre sistemas de base n a base 10 se efectúa como se muestra en los ejemplos siguientes:</p>
+		<p><b>Ejemplo 3.-</b>    Convertir (2403)<sub>7</sub> → (         )<sub>10</sub><br>
+(2403)<sub>7</sub> = 2x7<sup>3</sup> + 4x7<sup>2</sup> + 0x7<sup>1</sup> + 3x7<sup>0</sup> = 2x343 + 4x49 + 0x7 + 3x1 = (885)<sub>10</sub> </p>
+		
+		<p><b>Ejemplo 4.-</b>    Convertir (01 0011)<sub>2</sub>→ (         )10<br>     
+(01 0011)<sub>2</sub> = 1x2<sup>4</sup> + 0x2<sup>3</sup> + 0x2<sup>2</sup> +1x2<sup>1</sup> + 1x2<sup>0</sup> = 1x16 + 1x2 + 1x1 = (19)<sub>10</sub></p>
+
+<p><b>Ejemplo 5.- </b>  Convertir el número con decimales (63.125)<sub>8</sub> → (         )<sub>10</sub><br>
+Primero se convierte la parte entera<br>
+(63)<sub>8</sub> =   6x8<sup>1</sup> + 3x8<sup>0</sup> = 48 + 3 = (51)<sub>10</sub> </p>
+
+<p>En seguida la parte decimal<br>
+(0.125) = 1x8<sup>-1</sup> + 2x8<sup>-2</sup> + 5x8<sup>-3</sup> = 1/8 + 1/64 + 1/512 = 0.1250 + .0156 + 0.0019 = 0.1425 <br>
+Finalmente el número se forma con la parte entera y la parte decimal<br>
+Por tanto (63.125)<sub>8</sub> = (51.1425)<sub>10</sub></p>
+
+<p><b>Ejemplo 6.-</b> Convertir el decimal binario (0100.11)<sub>2</sub> → (         )<sub>10</sub></p>
+<p>1º la parte entera <br>
+(100<sub>2</sub> =1x2<sup>2</sup> +0x2<sup>1</sup> + 0x2<sup>0</sup> . 1x2<sup>-1</sup> + 1x2<sup>-2</sup>  = 1x4 + 0x 2<sup>1</sup>+ 0x1 = 4<sub>10</sub><br>
+En seguida la parte decimal <br>
+(0.11) = 1x2<sup>-1</sup> + 1x2<sup>-2</sup>  =  ½ + ¼ = 0.500 + 0.250 = 0.750<br>
+Finalmente el número se forma con la parte entera y la parte decimal<br>
+Por tanto (0100.11)<sub>2</sub> = (4.750)<sub>10</sub>
+</p>
+              
+<p>La conversión de base 10 a base n, se explica fácilmente con los siguientes ejemplos:</p>
+
+<p><b>Ejemplo 7.- </b>  Convertir el número entero 19<sub>10</sub> a número binario<br>
+
+                                       (19)<sub>10</sub> → (        )<sub>2</sub>
+</p>                                       
+
+<p><b>Solución</b></p>
+<p>Se divide el entero 19 entre el número de base a la que se quiere convertir, en este ejemplo es entre 2, a fin de obtener entero y residuo, de la siguiente forma:<br>
+19/2 = 9  y  residuo  1<br>
+9/2 = 4  y  residuo  1<br>
+4/2 = 2  y  residuo  0<br>
+2/2 = 1  y  residuo  0<br>
+½ =  0  y residuo  1<br>
+
+se divide hasta que el entero resultante es 0.<br>
+El número binario se forma tomando los residuos en orden de abajo hacia arriba por tanto (19)<sub>10</sub>  →  (10011)<sub>2</sub> 
+</p>
+
+
+<p><b>Ejemplo 8.-</b>   Convertir el número entero 885<sub>10</sub> a número base 7
+                                      
+                                 (885)<sub>10</sub> →  (        )<sub>7</sub>
+        </p>                         
+<p><b>Solución</b><br>
+
+Se divide el entero 885 entre el número de base a la que se quiere convertir, en este ejemplo es entre 7, a fin de obtener entero y residuo, de la siguiente forma:<br>
+                               885/7 = 126  y  residuo   3<br>
+                               126/7 = 18    y  residuo   0<br>
+                               18/7   = 2      y  residuo   4<br>
+                                 2/7   =  0     y  residuo   2<br>
+                              
+
+El número base 7 se forma tomando los residuos en orden de abajo hacia arriba<br>
+                
+por lo tanto (885)<sub>10</sub>  →  (2403)<sub>7</sub> 
+</p>
+
+<p><b>Ejemplo 9a.-</b>   Convertir el número decimal  0.53410 a número base 2 con 8 Bits<br>
+                                      
+                                 (0.534)<sub>10</sub> →  (                  )<sub>2</sub>
+   </p>                              
+
+<p><b>Solución</b><br>
+
+Como se trata de un número decimal, se multiplica por el número de base a la que se quiere convertir, en este ejemplo es por 2, a fin de obtener entero y decimal, de la siguiente forma:<br>
+                                  0.534 x 2  =  1 . 068   entero  1<br>
+                                  0.068 x 2  =   0.136    entero  0<br>
+                                  0.136 x 2  =   0.272    entero  0<br>
+                                  0.272 x 2  =   0.544    entero  0<br>
+                                  
+                                  0.544 x 2  =   1.088    entero  1<br>
+                                  0.088 x 2  =   0.176    entero  0<br>
+                                  0.176 x 2  =   0.352    entero  0<br>
+                                  0.352 x2   =   0.704    entero  0<br>
+                                 
+                                  0.704 x 2  =   1.408    entero  1<br>
+
+Se termina de multiplicar en dos casos, cuando se obtenga decimal 0.0000 ó cuando se tenga el número de bits deseado. En este ejemplo a 8 bits.<br>
+
+El número base 2 o binario se forma tomando los enteros en orden de arriba hacia abajo<br>
+                
+Por tanto (0.534)<sub>10</sub>  →  (0.1000 1000 )<sub>2</sub>  con 8 bits
+</p>
+
+<p><b>Ejemplo 9b.-</b> Convertir ( 13.1250)<sub>10</sub> →  (           )2  con 8 bits en la parte decimal.<br>
+
+(13)<sub>10</sub> → (         )<sub>2</sub>  <br>
+
+Parte entera<br>
+13/2 = 6 y residuo 1<br>
+6/2 = 3 y residuo 0<br>
+3/2 = 1 y residuo 1<br>
+½ = 0 y residuo 1 <br>
+
+por tanto  (13)<sub>10</sub> → ( 1101 )<sub>2</sub>  <br>
+Parte decimal ( 0.1250)<sub>2</sub> → (         )<sub>2</sub> <br> 
+0.125 x 2 = 0.250  entero  0<br>
+0.250 x 2 = 0.500  entero  0 <br>
+0.500 x 2 = 1.000  entero  1<br>
+0.000 x 2 = 0.000  entero  0<br>
+      
+0.000 x 2 = 0.000  entero  0<br>
+0.000 x 2 = 0.000  entero  0<br>
+0.000 x 2 = 0.000  entero  0<br>
+0.000 x 2 = 0.000  entero  0<br>
+
+Por tanto  ( 0.1250 )<sub>10</sub> → (  0.0010 0000 )<sub>2</sub>  <br>
+
+Finalmente el número se forma con la parte entera y la parte decimal<br>
+(13.1250)<sub>10</sub> →  ( 1101. 0010 0000 )<sub>2</sub>  con 8 bits en la parte decimal.<br>
+
+
+
+En la práctica son muy usados los números en base 10, base 2, base 8 y base 16<br>
+En razón a que 2<sup>1</sup> = 2,  2<sup>2</sup> = 4 , 2<sup>3</sup> = 8 y 2<sup>4</sup> = 16 y esto facilita la conversión entre las diferentes bases<br>
+</p>
+
+<p><b>Ejemplo 10.-</b>  Convertir 124<sub>10</sub>  a (   )<sub>2</sub> , a (   )<sub>8</sub> y a (   )<sub>16</sub><br>
+Primero 124 a base 2<br>
+124 ÷ 2 = 62 residuo  0<br>
+62  ÷ 2 = 31  residuo  0<br>
+31 ÷ 2  = 15  residuo  1<br>
+15 ÷ 2  =   7  residuo  1<br>
+  7 ÷ 2  =   3  residuo  1<br>
+  3 ÷ 2  =   1  residuo  1<br>
+  1 ÷ 2  =   0 residuo   1<br>
+  0 ÷ 2  =   0 residuo   0<br>
+
+124<sub>10</sub>  a (  0111 1100 )<sub>2</sub><br>
+Ahora  (0111 1100)<sub>2</sub>  se puede pasar fácilmente a base 8 tomando de 3 en 3 de derecha a izquierda los dígitos de base 2 e indicar el número correspondiente en base 10<br>
+Esto es  ( 01 111 100 )<sub>2</sub>     =    (  1 7 4 )<sub>8</sub><br>
+Y para base 16 se toman de 4 en 4 también de derecha a izquierda los dígitos de base 2 e indicar el número correspondiente en base 10<br>
+Teniendo en cuenta que en base 16 los dígitos empleados son 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, y F<br>
+ Por lo que   (0111 1100)<sub>2</sub>  =  ( 7 A)<br>
+Observar que teniendo el número en base 2 sólo basta tener en cuenta el número exponencial de 2 para agrupar según sea: de 3 3n 3 para base 8 y de 4 en 4 para base 16
+</p>
+
+		
+		<center><div class="actividad">
+			<h4>Actividad complementaria 2:  </h4> <hr>
+			<p class="text-center"><i>Pasar de base 16 a base 8 y a base 2 el número ( B37)<sub>16</sub></i></p>
+		</div></center>
+		<br>
+
+<p><b>Números binarios con representación: signo-magnitud, complemento 1 y complemento a 2</b></p>
+<p>Que es un número en representación a complemento y para qué sirve.</p>
+<p>En los sistemas digitales el procesador matemático solo hace sumas, pero eso sí a una gran velocidad, luego entonces cómo se hace la resta u operaciones lógicas de números sumando.</p>
+<p>El complemento a un número se establece como el complemento a la base o el complemento a la base disminuida, es decir para números en base diez se tiene el complemento a 10 y el complemento a 9. En números en base 2 o binarios se tiene el complemento a 2 y el complemento a 1.</p>
+
+<p>Para responder a cómo se hace la resta sumando, vemos primero  lo siguiente:</p>
+<ul>
+	<li>Cuál es el complemento a 10 de 4, esto es, cuanto le falta a 4 para ser 10, le faltan 6, por lo que el complemento a 10 de 4 es 6, que se escribe<br>
+                 4C<sub>10</sub> = 6</li>
+	<li>Obtener el complemento a 10 de 452, le faltan 548 para ser 1000, por lo que el complemento a 10 de 452 es 548, que se escribe<br>
+                  452C<sub>10</sub> = 548</li>
+</ul>
+
+<p><b>Como se hace la resta sumando; veamos:</b></p>
+<p>Realizar la operación 7 - 4 usando complemento a 10<br>
+                                              Se deja el valor del minuendo         7<br>
+Se pone el complemento a 10 del sustraendo y se suma          + 6<br>
+                                                       Existe acarreo se elimina       13<br>
+                                                              Se tiene el resultado          3
+ </p>                                                             
+
+<p>Para las operaciones aritméticas con números binarios se verá en capítulos siguientes.</p>
+
+<p>Primero nos referimos a cómo obtener el complemento a 1 o a 2 de un número binario.</p>
+<p><b>Complemento a 1 de un número binario:</b></p>
+<p>Para obtener el complemento a 1 de un número binario basta con cambiar los 1 por 0 y los 0 por 1, esto es:<br>
+Complemento a 1 del N= 11001100 es 00110011<br>
+Esto se escribe Nc1=00110011<br>
+Para obtener el número original a partir del complemento a 1, basta con volver a cambiar los 0 por 1 y los 1 por 0, esto es determinar el valor del número X si <br>
+           Xc1=0101010011   por tanto X = 1010101100
+ </p>  
+
+ <p><b>Complemento a 2 de un número binario:</b></p>
+<p>Para obtener el complemento a 2 de un número se obtiene el complemento a 1 y después al número resultante se le suma 1, esto es:<br>
+Obtener el complemento a 2 de N=11001100<br>
+N= 11001100 es 00110011<br>
+Complemento a 1<br>
+                        
+Complemento a 1           00110011<br>
+      se le suma 1                        + 1<br>
+                                 ___________<br>
+                                       00110100<br>
+</p>                                       
+
+<p>Por lo que complemento a 2 queda como 00110100</p>
+
+<p>Otra manera más rápida y cómoda de hacerlo es: <br>
+Al número a complementar a 2<br>
+ Se le respeta el primer 1 de derecha a izquierda y se cambian todos los demás 0 por 1 y 1 por 0 esto es
+</p>
+<p>
+a)	Complemento a 2 de N=01001100 = 10110100<br>
+
+b)	Complemento a 2 de Q=10001000 = 01111000<br>
+
+c)	Complemento a 2 de R=1000111001 = 0111000111
+</p>
+
+<p>Para obtener el número original a partir del complemento a 2, se hace lo mismo que anteriormente, esto es<br>
+a)	Obtener el número Q si <br>
+           Qc<sub>2</sub>=0101010011   por tanto Q = 1010101101<br>
+b)	Obtener el número R si<br>
+          Rc<sub>2</sub>=1111000 por tanto R =0001000
+</p>
+
+<p><b>Para la representación de números binarios se tienen tres formas diferentes de hacerlo:
+Representación signo magnitud:</b></p>
+<p>Los números positivos se representan con el primer bit a la extrema izquierda con 0 que representa el signo +, seguido por la magnitud.<br>
+Para los números binarios negativos un 1 a la extrema izquierda representa el signo - o negativo, seguido de la magnitud, por tanto<br>
+0 111 representa el número +7 y 1 111 representa el número -7
+</p>
+
+<p><b>Representación complemento a 1</b></p>
+<ul>
+<li>Para los números positivos (+) es igual al caso anterior, 
+          Esto es 0 111 representa el número +7</li>
+<li>Pero para los números negativos es necesario tomar su complemento a 1
+a)	Representar en complemento a 1 el número -7
+           Para +7 es 0 111 y su complemento a 1 es 1 000
+           Por tanto, la representación en complemento a 1 de -7 es 1 000
+
+b)	Representar en complemento a 1 el número -25
+           Para +25 es 0 11001 y su complemento a 1 es 1 00110
+           Por tanto, la representación en complemento a 1 de -25 es 1 00110
+
+Para obtener el número original en base 10 a partir de la representación en complemento a 1, se debe considerar dos casos:</li>
+<li>Para números positivos en complemento a 1 el número original es el mismo </li>
+<li>Para los números negativos basta con volver a cambiar los 0 por 1 y los 1 por 0, y asignarle el signo negativo, esto es:<br>
+                Determinar el valor del número X si <br>
+                      XC1=101010011   por tanto X10=0101011002= -172<br>
+
+Representación complemento a 2</li>
+<li>Para los números positivos (+N) es igual a los casos anteriores,<br>
+            Esto es 0 111 también representa el número +7 </li>
+<li>Pero para los números negativos es necesario tomar su complemento a 2, esto es:<br>
+a)	Representar en complemento a 1 el número -7<br>
+           Para +7 es 0 111 y su complemento a 2 es 1 001<br>
+           Por tanto, la representación en complemento a 1 de -7 es 1 001<br>
+
+b)	Representar en complemento a 2 el número -25<br>
+           Para +25 es 0 11001 y su complemento a 2 es 1 00111<br>
+Por tanto, la representación en complemento a 2 de -25 es 1 00111</li>
+	</ul>
+
+<p>Para obtener el número original en base 10 a partir de la representación en complemento a 2, se debe considerar dos casos:</p>
+<ul>
+	<li>Para números positivos en complemento a 2 el número original es el mismo </li>
+	<li>Para los números negativos proceder de la forma siguiente:<br>
+Considerar el valor numérico base 10 del signo negativo, y sumarle el número positivo que representan los demás valores, esto es:<br>
+
+a)	Determinar el valor del número X si <br>
+                      XC<sub>2</sub>=1010100   por tanto X<sub>10</sub>= -64<sub>10</sub> + 20 = - 4<br>
+b)	Determinar el valor del número Q si <br>
+                      QC<sub>2</sub>=101101   por tanto X<sub>10</sub>= -32<sub>10</sub> + 13 = - 19</li>
+</ul>	
+
+<p>Los números con signo que se pueden representar dependen de la cantidad de bits que se emplean, en la tabla 2 se muestran los números binarios positivos y negativos que se pueden representar con cuatro bits.</p>
+
+<br>
+<center><img src="imas/u1/u1_t2.jpg" class="img-fluid" alt="Representación de números binarios positivos y negativos utilizando 4 bits">	<p class="tx-figura">Tabla 2. Representación de números binarios positivos y negativos utilizando 4 bits</p></center>
+<br>
+
+<p>Es muy importante notar en la tabla 2 que el número 0 solo tiene una representación en complemento a 2.</p>
+<p>Para reforzar el entender la representación de números binarios negativos la explicaremos con los siguientes ejemplos. </p>
+
+<p><b>Ejemplo 11.- </b>  Representar el número (-17)<sub>10</sub> en forma binaria con 8 bits, en las formas a) signo y magnitud, b) complemento a 1 c) complemento a 2.</p>
+<p><b>Solución</b></p>
+
+<p> 
+a)	Representación de (-17)<sub>10</sub> en forma binaria con signo y magnitud<br>
+             
+La convención para representar el bit de signo es 0 para el “+” y 1 para el  “ - ”  en los tres casos, según se puede observar en la tabla 2. Para la magnitud en este caso basta con representarla con su valor en binario, esto es<br>
+(-17)<sub>10</sub> → (1 0010001)<sub>2</sub>  <br>
+
+b)	Representación de (-17)<sub>10</sub> en forma binaria con complemento a 1 con 8 bits<br>
+
+La convención para representar el bit de signo es como ya se dijo: 0 para el “+” y 1 para el “ - ”. Para expresar la parte de magnitud negativa primero es necesario tomar su complemento a 1.<br>
+El complemento a 1 de un número se obtiene cambiando todos los “1” del número por “0” y los “0” por “1” Esto es <br>
+(17)<sub>10</sub> → (0001 0001)<sub>2</sub>  <br>
+Entonces el complemento a 1 de 0001 0001 es 1110 1110<br>
+Por lo tanto, la representación de (-17)<sub>10</sub> en forma binaria con complemento a 1 y con 8 bits, es 1 110 1110<br>
+           -17<sub>C1</sub> = 1 110 1110<br>
+
+c)	Representación de (-17)<sub>10</sub> en forma binaria con complemento a 2 y con 8 bits<br>
+Para expresar la parte de magnitud negativa primero es necesario tomar su complemento a 2.<br>
+El complemento a 2 de un número se obtiene tomando el complemento a 1 del número y después sumando 1 al resultado, esto es:<br>
+
+Número a complementar a 2     0001 0001<br>
+Complemento a 1 es                 1110 1110 <br>
+Sumar 1                                                  +1<br>
+ Complemento a 2                     1110 1111<br>
+O como ya se dijo otra manera más rápida y cómoda de hacerlo es: <br>
+Al número a complementar a 2<br>
+ Se le respeta el primer 1 de derecha a izquierda y se cambian todos los demás 0 por 1 y 1 por 0 esto es<br>
+              El complemento a 2 de N=0001 0001 es 1110 1111<br>
+
+Entonces la representación de (-17)<sub>10</sub> en forma binaria con complemento a 2 y con 8 bits es: N<sub>C2</sub>= 1110 1111
+</p>
+
+
+<p><b>Ejemplo 12.-</b><br>
+a)	El número A = 1110 0011 está en representación en complemento a 1, de que número en base diez se trata.</p>
+
+  <p><b>Solución:</b><br>
+ Primero se convierten los 1 por 0 y los 0 por 1 <br>
+      Complemento a 1 de A = 1110 0011 <br>
+                                       A = - 0001 1100 <br>
+      En base diez      → A = - 28<br>
+
+b)	El número B = 1011 0001 está en representación en complemento a 2, de qué número en base diez se trata.<br>
+  A tener en cuenta:  Se asigna el peso correspondiente a todos los dígitos 1, tener presente que se considera, que el peso del dígito de signo es negativo, siendo los demás positivos; realizar la suma en base diez:<br>
+
+
+  128   64   32   16   8   4   2   1<br>
+      1     0     1      1   0   0   0   1<br>
+    -128    + 32 + 16         +     1 =   - 79<br>
+
+    → B =   - 79
+
+</p>
+
+<br>
+
+	<p class="titulin">1.3.2. Operaciones aritméticas básicas</p>
+	<p>Operaciones de suma y resta con números binarios.</p>
+	<p>La operación de suma binaria se puede realizar en base a la siguiente tabla:</p>
+
+	<br>
+<center><img src="imas/u1/u1_t3.jpg" class="img-fluid" alt="Tabla de suma con números binarios">	<p class="tx-figura">Tabla 3. Tabla de suma con números binarios</p></center>
+<br>
+
+<p>En esta tabla el último cuadro se debe leer, 1 +1 resultado 0 y acarreo 1, su aplicación se muestra con los siguientes ejemplos:</p>
+<p><b>Ejemplo 13.- </b>  Sea M = 01011 y N = 00110 efectuar M+N<br>
+
+<b>Solución</b>             M      10 11 10   1   1   <br>
+●	                   N   + 0   0 1   1   0<br>
+                              Q = 1   0 0   0   1<br>
+
+</p>                              
+
+<p><b>Ejemplo 14.-</b>   Sea A = 1110 0011 y B = 0010 1111 efectuar A+B<br>
+
+<b>Solución</b>             A        10  11   1  10  10  10  11   1<br>
+●	          B +      0   0   1   0    1   1    1   1<br>
+C =                1   0   0   1    0    0   1   0
+
+</p>
+
+	<p class="titulin">1.3.3. Operaciones con complemento</p>
+
+	<p><b>Resta de números binarios</b></p>
+	<p>La resta comúnmente se realiza usando el complemento a 1 o el complemento a 2, la forma de hacerlo es similar en ambos métodos, al minuendo se le suma el complemento que corresponda, teniendo cuidado en terminar la operación dependiendo de si existe acarreo o no. Se ilustra con los siguientes ejemplos:</p>
+
+	<p><b>Ejemplo 15.-</b> Sea A= (100)2. y B = (10)2 realizar A – B usando complemento a 1.</p>
+	<p><b>Solución:</b> Los números binarios a operar se deben tener en con el mismo tamaño de palabra, es decir el mismo número de bits. Para este ejemplo se propone que la palabra sea de 4 bits.</p>
+	<p>Por lo tanto, A = 0100 y B = 0010, en seguida se obtiene el complemento a 1 del sustraendo, el cual se obtiene sustituyendo los 1 por 0 y los 0 por 1.</p>
+
+	<p>En este ejemplo se obtiene el complemento a 1 de B, que resulta ser 1101</p>
+	<p>Para hacer la resta, al minuendo A se le suma el complemento a 1 de B obteniendo suma parcial y a este valor, si existe acarreo, es decir solo si se excede el tamaño de la palabra en un bit “1”, se suma 1 a la suma parcial, obteniendo el resultado final.<br>
+                                                                             
+                                      A          0   1   0  0  <br>
+Complemento a 1 de B       + 1   1   0  1     <br>
+                                             1    0   0 10   1       excede el tamaño de la palabra <br>
+          Se suma             →                         + 1<br>
+                  A – B   =                     0   0   1   0  <br>
+Comprobando en base 10   <br>
+A = 0100 = 4 y B = 0010 = 2<br>
+  A –B = 2
+  </p>
+
+  <p>De aquí se puede generalizar como regla 1: cuando se realiza la resta de 2 números binarios usando complemento a 1, si existe acarreo en la suma parcial, este se suma a la suma parcial, y el resultado final es positivo.</p>
+
+
+<center><div class="actividad">
+			<h4>Actividad complementaria 3:  </h4> <hr>
+			<p class="text-center"><i>Determinar la regla 2 a seguir cuando se restan dos números binarios usando complemento a 1 y en la suma parcial no existe acarreo.</i></p>
+		</div></center>
+		<br>
+
+
+		<p><b>Ejemplo 16.-</b> Sea A= (100)2 y B = (10)2 realizar A – B usando complemento a 2.</p>
+		<p><b>Solución:</b> Como ya se mencionó en el ejemplo anterior los números binarios a restar deben tener el mismo tamaño de palabra es decir el mismo número de bits.</p>
+		<p>Por tanto     A = 0100 y   B = 0010, enseguida se obtiene el complemento a 2 del sustraendo,<br>
+El cual se obtiene sumando en número 1, al complemento a uno:<br>
+en este ejemplo de B =        0 0 1 0 <br>
+Complemento a 1 de B =     1 1 0 1<br>
+Sumar 1                                 +         1<br>
+                                                 1 1 1 0<br>
+Por lo que el complemento a 2 de B resulta ser 1110, <br>
+Para hacer la resta A-B, al minuendo A se le suma el complemento a 2 de B<br>
+
+                                                       A      10  1 0 0<br>
+        complemento a 2 de B   + 1  1 1 0<br>
+                                                   1   0  0 1 0<br>   
+
+A – B   =     0 0 1 0<br>
+</p>
+<p>De aquí se puede generalizar como regla 3: cuando se realiza la resta de 2 números binarios usando complemento a 2, si existe acarreo 1 en la suma parcial este se desecha, y el resultado es positivo.</p>
+
+<center><div class="actividad">
+			<h4>Actividad complementaria 4:  </h4> <hr>
+			<p class="text-center"><i>Determinar la regla 4 a seguir cuando se restan dos números binarios usando complemento a 2 y en la suma parcial no existe acarreo.</i></p>
+			<p>Se recomienda hacer un resumen de las 4 reglas para la resta con números binarios.</p>
+		</div></center>
+		<br>
+
+
+
+
+
+
+		<a href="unidad1_2.html" target="_self"><img src="imas/btn_atras.png" class="bot" style="float:left;"></a>
+		<a href="unidad1_4.html" target="_self"><img src="imas/btn_adelante.png" class="bot" style="float:right;"></a>
+
+
+
+	
+	</div>
+	  
+	  <div id="pleca_botones"><center><a href="pdf/ejercicios_u1.pdf" target="_blank"><img src="imas/btn_ejercicios1.png" class="descargable" alt="descargar ejercicios"></a> &nbsp; &nbsp; <a href="pdf/soluciones_u1.pdf" target="_blank"><img src="imas/btn_solucion1.png" class="descargable" alt="descargar soluciones"></a></center></div>
+	
+
+	  
+	  <br><br><br><br><br><br><br><br><br>
+	  
+
+<script src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+

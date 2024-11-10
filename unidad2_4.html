@@ -1,0 +1,193 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+  
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sistemas digitales</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">	
+  </head>
+  
+  
+  <body>
+	
+<div id="menucin">
+<img src="imas/menu.jpg" id="menucito1" class="img-fluid d-lg-block d-md-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_m.jpg" id="menucito2" class="img-fluid d-md-block d-lg-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_sm.jpg" id="menucito3" class="img-fluid d-block d-md-none" alt="Encabezado de Sistemas Digitales">	
+	<p id="botones_menu" class="d-md-block d-sm-none d-none"> <a href="index.html" target="_self" class="bot-menu"> Inicio </a> &nbsp;&nbsp; <a href="unidad1.html" target="_self" class="bot-menu">  Unidad I </a> &nbsp;&nbsp; <a href="unidad2.html" target="_self" class="bot-menu">  Unidad II </a> &nbsp;&nbsp; <a href="unidad3.html" target="_self" class="bot-menu">  Unidad III </a> &nbsp;&nbsp; <a href="unidad4.html" target="_self" class="bot-menu"> Unidad IV </a>   &nbsp;&nbsp; <a href="unidad5.html" target="_self" class="bot-menu">  Unidad V </a> &nbsp;&nbsp; <a href="bibliografia.html" target="_self" class="bot-menu">  Bibliografía </a> </p>
+</div>
+	  
+	  
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary d-md-none">
+	
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	  
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li id="espacio"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        
+       
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad1.html">Unidad I</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad2.html">Unidad II</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad3.html">Unidad III</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad4.html">Unidad IV</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad5.html">Unidad V</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+        </li>
+		  
+		  
+      </ul>
+    </div>
+  </div>
+</nav>
+	 
+	</div>
+	  
+
+	  
+
+		  <br><br><br>
+	<div class="container">
+		
+		<center><img src="imas/portada_u2.jpg" class="img-fluid" alt="Unidad II"></center>
+		<br>
+		
+		
+		<div class="card-header">2.4. Simplificaciones de funciones por el método de mapas de Karnaugh</div>
+		<br>
+
+		<h3>2.4.1. Sistemas con Uni-compuertas NAND o NOR</h3>
+		<p>La simplificación de circuitos lógicos por métodos gráficos se puede realizar con diagramas de Venn pero como ya se dijo en el apartado no resulta práctico su uso en representaciones complejas por lo que no es muy común su empleo. La otra solución gráfica es por mapas de karnaugh la cual resulta de fácil aplicación para expresiones de hasta 4 variables, para 5 variables o más es conveniente usar métodos computacionales como por ejemplo la implementación del algoritmo de Quine – McCluskey, los interesados pueden ver el libro de John F. Wakerly, Diseño Digital, · Prentice Hall, 3ra Edición, pág.236. En este libro el autor presenta un programa en lenguaje C para este algoritmo. .</p>
+		
+		<p class="titulin">Diagramas o mapas de Karnaugh- Simplificación</p>
+		<p>Un mapa de Karnaugh es una representación de los miniterminos que proporciona un método sistemático de simplificación, que genera las expresiones suma de productos y productos de suma más simples posibles.</p>
+		<p>El mapa es similar a una tabla de verdad ya que muestra todos los posibles valores de las variables de entrada y la salida que resulta para cada valor. Su aplicación se ilustra fácilmente con los siguientes ejemplos, se muestra su empleo para 2, 3, y 4 variables.</p>
+
+		<p class="titulin">Mapa de Karnaugh para dos variables.</p>
+		<p>El mapa de dos variables es un conjunto de 4 celdas, con todas las combinaciones posibles de la siguiente forma:</p>
+		
+		<br>
+		<center><img src="imas/u2/u2_14.jpg" class="img-fluid" alt="Diagrama esquemático de las compuertas NOT, AND, OR, NAND y NOR">	<p class="tx-figura">Figura 14. Mapa de Karnaugh para dos variables </p></center>
+
+		<p class="titulin">Mapa de Karnaugh para tres variables.</p>
+        <p>El mapa de tres variables es un conjunto de 8 celdas, con todas las combinaciones posibles de la siguiente forma:</p>
+		
+		<br>
+		<center><img src="imas/u2/u2_15.jpg" class="img-fluid" alt="Mapa de Karnaugh para tres variables">	<p class="tx-figura">Figura 15. Mapa de Karnaugh para tres variables </p></center>
+
+		<p class="titulin">Mapa de Karnaugh para cuatro variables.</p>
+		<p>El mapa de cuatro variables es un conjunto de 16 celdas, con todas las combinaciones posibles de la siguiente forma:</p>
+
+		<br>
+		<center><img src="imas/u2/u2_16.jpg" class="img-fluid" alt="Mapa de Karnaugh para cuatro variables">	<p class="tx-figura">Figura 16. Mapa de Karnaugh para cuatro variables </p></center>
+
+		<center><div class="actividad">
+			<h4>Actividad complementaria 8:</h4> <hr>
+			<p class="text-center"><i>Uno de los mapas de la figura 17 está mal ¿Cuál es el error?</i></p>
+
+			<p><b><i>Ejemplo 24.-</i></b> Reducir las expresiones   a) f = xy      y      b) Q = xy’ +x’y + </p>
+		<p>Solución</p> 
+        <p>a) se representa en el mapa como un 1 en la posición indicada, no tiene reducción puesto que es un solo término.</p>
+		<br>
+		<center><img src="imas/u2/u2_17.jpg" class="img-fluid" alt="Mapa de Karnaugh para ejemplo a)  f = xy">	<p class="tx-figura">Figura 17. Mapa de Karnaugh para ejemplo a)  f = xy </p></center>
+
+		<p>Solución</p> 
+		<p>Para b) Se representan los 1 en la casilla correspondiente, se pueden hacer grupos de 2.  Se observa que el par de 1 horizontal ocupa el dominio de x  y  que el par de 1 vertical ocupa el dominio de y  por lo que la expresión queda: Q = x + y.</p>
+		<br>
+		<center><img src="imas/u2/u2_18.jpg" class="img-fluid" alt="Mapa de Karnaugh para ejemplo b) Q = xy’ +x’y + xy">	<p class="tx-figura">Figura 18. Mapa de Karnaugh para ejemplo b) Q = xy’ +x’y + xy </p></center>
+	
+		<p><b><i>Ejemplo 25.-</i></b> a)    Simplificar la  expresión F(x,y,z) = ∑(0,2,4,5,6) </p>
+		<p>Solución:
+			Se anotan los 1 en la casilla correspondiente al minitermino indicado, se agrupan los 1 en múltiplo exponencial de 2, esto es 2, 4, 8, 16,..  2n  para este ejemplo como se indica en el diagrama.   Se observa el dominio que ocupa y se hace la anotación. Se agrupan los cuatro miniterminos verticales y se observa que ocupa el dominio de Z’, y dos miniterminos horizontales están en el dominio de XY’ por lo que la expresión reducida queda: F = z’ +xy’</p>
+
+		<br>
+		<center><img src="imas/u2/u2_19.jpg" class="img-fluid" alt="Reducción expresión F(x,y,z) = ∑(0,2,4,5,6)">	<p class="tx-figura">Figura 19. Reducción expresión F(x,y,z) = ∑(0,2,4,5,6) </p></center>
+		
+		<p>a)	Simplificar la expresión  Q =  x’yz +xyz +xyz’ + xy’z’  </p>
+		<p>Solución: 
+			En el mapa de 3 variables se anotan los 1 en la casilla correspondiente y se agrupan términos adyacentes en múltiplos exponenciales de 2, ver figura,  se observa que dominios ocupan. Quedando la reducción como 
+						Q = yz + xz’</p>
+		<p>Es conveniente unir la cadena a fin de evitar errores, esto se hace con el termino XY por lo que la función queda como 
+			Q = yz+xz’+xy</p>
+
+		<br>
+		<center><img src="imas/u2/u2_20.jpg" class="img-fluid" alt="Reducción por mapas de Karnaugh para la expresión Q =  x’yz +xyz +xyz’ + xy’z’">	<p class="tx-figura">Figura 20. Reducción por mapas de Karnaugh para la expresión Q =  x’yz +xyz +xyz’ + xy’z’</p></center>
+		
+		<p><b><i>Ejemplo 26.-</i></b> a) Simplificar la expresión Booleana F(w, x,y,z) = ∑(0,1,2,4,5,6,8,9,12,13,14))</p>
+		<p>Solución: 
+			En un mapa de 4 variables se anotan los 1 en la casilla del minitermino correspondiente, se agrupan los términos adyacentes en múltiplos exponenciales de 2 , entre más términos mayor es la reducción, pero estos deben estar en múltiplos exponenciales de 2, ver figura del ejemplo, se han formado tres grupos, uno de 4 términos en la parte superior, otro también de 4 términos en la parte media y un tercero de 8 términos en la parte izquierda. Observando los dominios que ocupan se tiene:
+								F = y’ +w’z’ +xz’.</p>
+
+		<br>
+		<center><img src="imas/u2/u2_21.jpg" class="img-fluid" alt="Simplificación de la expresión Booleana F(w, x,y,z) = ∑(0,1,2,4,5,6,8,9,12,13,14))">	<p class="tx-figura">Figura 21. Simplificación de la expresión Booleana F(w, x,y,z) = ∑(0,1,2,4,5,6,8,9,12,13,14))</p></center>
+	
+		<p><b><i>Ejemplo 26.-</i></b> b) Simplificar la expresión Booleana 
+			Q = A’B’C’ + B’CD’ + A’BCD’ AB’C’</p>
+		<p>Solución:   Primero se debe de completar los miniterminos, esto es: </p>
+
+			<p></p>Q = A’B’C’(D + D’) +’BCD’(A +A’) +A’BCD’ + AB’C’(D +D’)
+		   = A’B’C’D + A’B’C’D’ +’BCD’A +’BCD’A’ +A’BCD’ + AB’C’D + AB’C’D’)
+			= ∑(0,1,2,6,8,9,10))  y se sigue el procedimiento ya descrito en apartado 
+			<p>a).  
+							Q = B’D’ +B’C’ +A’CD’.</p>
+
+		<br>
+		<center><img src="imas/u2/u2_22.jpg" class="img-fluid" alt="Reducción por mapa de Karnaugh para Q=A’B’C’ + B’CD’ + A’BCD’ AB’C’ =  ∑(0,1,2,6,8,9,10), queda como      Q = B’D’+B’C’+A’CD’">	<p class="tx-figura">Figura 22. Reducción por mapa de Karnaugh para Q=A’B’C’ + B’CD’ + A’BCD’ AB’C’ =  ∑(0,1,2,6,8,9,10), queda como      Q = B’D’+B’C’+A’CD’ </p></center>
+
+		</div></center>
+		<br>
+		
+		
+		<a href="unidad2_3.html" target="_self"><img src="imas/btn_atras.png" class="bot" style="float:left;"></a>
+		<a href="unidad3.html" target="_self"><img src="imas/btn_adelante.png" class="bot" style="float:right;"></a>
+
+	
+	</div>
+	  
+	  <div id="pleca_botones"><center><a href="pdf/ejercicios_u2.pdf" target="_blank"><img src="imas/btn_ejercicios1.png" class="descargable" alt="descargar ejercicios"></a> &nbsp; &nbsp; <a href="pdf/soluciones_u2.pdf" target="_blank"><img src="imas/btn_solucion1.png" class="descargable" alt="descargar soluciones"></a></center></div>
+	
+
+	  
+	  <br><br><br><br><br><br><br><br><br>
+	  
+
+<script src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+

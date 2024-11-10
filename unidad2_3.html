@@ -1,0 +1,272 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+  
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sistemas digitales</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">	
+  </head>
+  
+  
+  <body>
+	
+<div id="menucin">
+<img src="imas/menu.jpg" id="menucito1" class="img-fluid d-lg-block d-md-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_m.jpg" id="menucito2" class="img-fluid d-md-block d-lg-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_sm.jpg" id="menucito3" class="img-fluid d-block d-md-none" alt="Encabezado de Sistemas Digitales">	
+	<p id="botones_menu" class="d-md-block d-sm-none d-none"> <a href="index.html" target="_self" class="bot-menu"> Inicio </a> &nbsp;&nbsp; <a href="unidad1.html" target="_self" class="bot-menu">  Unidad I </a> &nbsp;&nbsp; <a href="unidad2.html" target="_self" class="bot-menu">  Unidad II </a> &nbsp;&nbsp; <a href="unidad3.html" target="_self" class="bot-menu">  Unidad III </a> &nbsp;&nbsp; <a href="unidad4.html" target="_self" class="bot-menu"> Unidad IV </a>   &nbsp;&nbsp; <a href="unidad5.html" target="_self" class="bot-menu">  Unidad V </a> &nbsp;&nbsp; <a href="bibliografia.html" target="_self" class="bot-menu">  Bibliografía </a> </p>
+</div>
+	  
+	  
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary d-md-none">
+	
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	  
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li id="espacio"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        
+       
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad1.html">Unidad I</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad2.html">Unidad II</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad3.html">Unidad III</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad4.html">Unidad IV</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad5.html">Unidad V</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+        </li>
+		  
+		  
+      </ul>
+    </div>
+  </div>
+</nav>
+	 
+	</div>
+	  
+
+	  
+
+		  <br><br><br>
+	<div class="container">
+		
+		<center><img src="imas/portada_u2.jpg" class="img-fluid" alt="Unidad II"></center>
+		<br>
+		
+		
+		<div class="card-header">2.3. Simplificaciones de funciones por el método algebraico</div>
+		<br>
+		
+		<p class="titulin">Aritmética de funciones</p>
+		<p>Como ya se dijo resulta de particular importancia el reducir o simplificar las funciones lógicas por el aspecto de costo y operación, pues entre menos compuertas, más económico, pero también entre más sencillo sea un circuito su desempeño resulta más confiable y será más fácil de construir..</p>
+		<p>Un método de cómo simplificar funciones requiere de aplicar una estrategia para hacerlo, se propone básicamente:.</p>
+		
+		<ul>
+			<li>Tratar de aplicar los postulados X+X’=1 ,  X+1=1 ,  X+X =X  pues de esta forma se podrán reducir términos.</li>
+			<li>Por observación identificar los términos que contengan variables como X , X’ y que se puedan agrupar por factorización, es decir la propiedad distributiva de la multiplicación respecto a la suma.</li>
+			<li>Estar atentos en la aplicación de otros teoremas, como X+XY=X</li>
+			<li>Tener mucho cuidado en la aplicación de los teoremas de D’morgan, recordar que los términos se niegan y el operador + (suma) cambia a  • (multiplicación) y viceversa.</li>
+		</ul>
+		<p>Esto se explica con los ejemplos siguientes:</p>
+        
+		<p><b><i>Ejemplo 13.-  </i></b>Reducir aplicando álgebra de boole la función Fa  y mostrar un diagrama esquemático de las funciones original y simplificada</p>
+        <p> &nbsp; &nbsp; &nbsp; &nbsp; Fa = m5+ m6+ m7 = C G’ L + C G L’ + C G L</p>
+		<p>Se observa que los minitérminos  (m5 , m7 ) y (m6 , m7) se pueden factorizar, para sacar provecho de que tienen términos con variables complementarias, esto es m5 tiene a G y m7 tiene a G’ lo mismo para m6 y m7 que tienen a L y L’ respectivamente.</p>
+        <p>Falarma = </p>
+
+		<p>= (C G’ L + C G L) + (C G L + C G L’)</p>	
+
+		<p>=  C L(G’+G) + CG(L+L’)</p>	
+
+		<p>= C L(1) + CG(1)</p>	
+
+		<p>= CL+CG</p>	
+        
+
+		<center><div class="actividad">
+			<h4>Actividad complementaria 6:</h4> <hr>
+			<p class="text-center"><i>Identifique cuales postulados o teoremas se aplican en cada paso </i></p>	
+			<p><b><i>Ejemplo 14.-  </i></b> Simplifique las funciones booleanas al menor número de literales:</p>
+        <p>1.- x(x’ + y) + xyz
+			= xx’ + xy + xyz 
+			= 0 + xy +xyz
+			= xy + xyz
+			= xy
+        </p>
+		<p>2.- xy + x’z + yz
+			= xy + x’z + yz(1) 
+			= xy + x’z + yz(x + x’)
+			= xy +x’z + yzx +yzx’
+			=xy + x’z + xyz + x’yz
+			= xy(1+z) + x’z(1+y)
+			= xy + x’z
+        </p>
+        <p>3.- (x + y)(x +y’)
+			= xx +xy’ +xy + yy’
+			= x + xy +xy’ + 0
+			= x
+        </p>
+		</div></center>
+		<br>
+
+		
+
+		<center><div class="actividad">
+			<h4>Actividad complementaria 7:</h4> <hr>
+			<p class="text-center"><i>Identifique cuales postulados o teoremas se aplican en cada paso </i></p>	
+		    <p>El complemento de una función F es F’ y su valor, se obtiene intercambiando ceros por unos y unos por ceros, pero cuando la función se expresa con términos, el complemento se encuentra algebraicamente aplicando los teoremas de Demorgan  que es conveniente leerlos así:
+				</p>   
+			<p><ul>
+				<li>(x+y)’= x’y’ El complemento de la suma de dos términos es igual a el primer término negado por el segundo término negado.</li>
+				<li>(xy)’ = x’ + y’ El complemento de un producto de términos es igual a la suma del primer término negado + el segundo término negado.</li>
+			</ul>
+			</p>
+			
+			<p><b><i>Ejemplo 15.-  </i></b> Obtener el complemento de las funciones F = x’yz’ + x’y’z  y Q=x(y’z’+yz) aplicando los teoremas de D’morgan tantas veces como sea necesario</p>
+        <p>F’ = (x’yz’ + x’y’z)’
+			= (x’yz’)’ (x’y’z)’
+			= (x+y’+z)( x+y+z’)
+        </p>
+		<p>Q’ = [x(y’z’+yz) ]’
+			= x’ + (y’z’+yz)’
+			= x’ + (y’z’)’(yz)’
+		   = x’ + (y+z)(y’+z’)       
+		 </p>
+
+        <p> Un procedimiento más sencillo para obtener el complemento de una función es aplicar el principio de dualidad que estable que toda expresión algebraica que pueda deducirse de los postulados del álgebra booleana seguirá siendo válida si se intercambian los operadores y los elementos de identidad. Si se quiere obtener el dual de una función simplemente se intercambian los operadores OR y AND y se sustituyen los unos por ceros y los ceros por unos.</p>
+        <p>Para obtener el complemento de una función se intercambian los operadores OR y AND y se complementa cada literal.</p>
+
+        <p><b><i>Ejemplo 16.-  </i></b> Aplicando el principio de dualidad obtener el complemento de las funciones: </p>
+        <p>(a).- F = x’yz’ + x’y’z       
+			Solución
+		    F’ = (x’yz’ + x’y’z)’ = (x+y’+z)(x+y+z’)  	  
+        </p>
+		<p>Q = x(y’z’+yz)
+			Solución 
+	       Q’ = [x(y’z’+yz) ]’ = x’ + (y+z)(y’+z’)       		  
+		 </p>
+
+		<p><b><i>Ejemplo 17.-  </i></b> Aplicar los teoremas de De Morgan a las expresiones:</p>
+        <p>(a).-   [(A+B)’+c’]’            (b).-  [ (A’+B) + CD]’          (c).- [(A+B)C’D’+E+F’]’ 	  
+        </p>
+		<p>Solucion.-
+			(a)  [(A+B)’+C’]’
+										 = (A+B)’’C’’
+										 = (A+B)C  
+			
+			 
+			(c).- [(A+B)C’D’+E+F’]’ 
+													= [(A+B)C’D’]’(E+F’)’
+													= [(A+B)’+(C’D’)’](E’F)
+													=(A’B’+C+D)E’F						 
+		 </p>
+		</div></center>
+		<br>
+
+		
+
+		 <h3>2.3.2. Sistemas digitales, microprocesadores y microcontroladores</h3>
+		 <p>Todas las expresiones booleanas pueden ser convertidas a tablas de verdad utilizando los valores binarios de cada término de la expresión. La tabla de verdad es un formato muy común y conciso para expresar el funcionamiento lógico de un circuito pues es cómodo para ver el valor de las entradas y el valor de salida resultante en función de los minitérminos, a partir de la tabla se puede generar la ecuación que define el comportamiento del circuito, como ya se hizo presente en varios ejemplos anteriores. Su aplicación resulta lenta en su desarrollo, pero es fácil de implementar tanto para analizar un circuito como para su diseño.</p>
+
+		 <p><b><i>Ejemplo 18.-  </i></b> Desarrollar una tabla de verdad para la expresión F = a’b’c +abc’ + abc</p>
+        <p>Solución.  De la expresión algebraica podemos observar que la función F la podemos expresar con miniterminos como F  =  m001 + m110 + m111 = m1 + m6 + m7 por lo que la tabla de verdad es</p>
+		
+		<br>
+        <center><img src="imas/u2/u2_t14.jpg" class="img-fluid" alt="Tabla de verdad de F  = a’b’c +abc’ + abc =  m1 + m6 + m7">	<p class="tx-figura">Tabla 14. Tabla de verdad de F  = a’b’c +abc’ + abc =  m1 + m6 + m7</p></center>
+
+		<p><b><i>Ejemplo 19.-  </i></b> Representar en tabla de verdad la función lógica QBA = B’A + B A’</p>
+        <p>Solución.  Expresamos la función Q en minitérminos, esto  es 
+			QBA= m01+ m10 = m1+ m2</p>
+			
+		<br>
+		<center><img src="imas/u2/u2_t15.jpg" class="img-fluid" alt="Tabla de verdad de QBA = B’A + B A’=  m1 + m2">	<p class="tx-figura">Tabla 15. Tabla de verdad de QBA = B’A + B A’=  m1 + m2</p></center>
+
+		<p><b><i>Ejemplo 20.-  </i></b> Representar en tabla de verdad la función lógica</p>
+		<p>QDCBA = B’A + DCB+D’B’A</p>
+        <p>Solución.   Completamos con X las variables faltantes en la función , esto es:</p>
+		<p>QDCBA = XXB’A + DCBX + D’XB’A</p>
+
+		<p>Observar que las literales deben de estar ordenadas en cada término, en este caso el orden es DCBA</p>
+		<p>En la tabla de verdad valoramos cada término por separado, ponemos 1 para las entradas XX01 que corresponde con XXB’A, 111X →DCBX y finalmente 0X01→ D’XB’A</p>
+		
+		<br>
+		<center><img src="imas/u2/u2_t16.jpg" class="img-fluid" alt="Tabla de verdad de QDCBA = B’A + DCB+D’B’A = m1+m5+m9+m13+m14+m15"> <p class="tx-figura">Tabla 16. Tabla de verdad de QDCBA = B’A + DCB+D’B’A = m1+m5+m9+m13+m14+m15</p></center>
+
+		<p>Observación. - Se dejó en blanco las demás casillas para darle claridad a la tabla, pero se debería haber puesto 0 en cada una de estas.</p>
+
+		<p><b><i>Ejemplo 21.-  </i></b> Desarrollar una tabla de verdad para la expresión F = (AB + AC)’ + A’B’C</p>
+        <p>Solución. - En la tabla primero valoramos cada termino por separado (operaciones parciales) y al último la función (salida) ya integrada:</p>
+
+		<br>
+		<center><img src="imas/u2/u2_t17.jpg" class="img-fluid" alt="Tabla de verdad de F = (AB + AC)’ + A’B’C =  m0+m1 + m2 + m3+ m4"> <p class="tx-figura">Tabla 17. Tabla de verdad de F = (AB + AC)’ + A’B’C =  m0+m1 + m2 + m3+ m4</p></center>		
+
+		<p><b><i>Ejemplo 22.-  </i></b> Diseñar, usando tabla de verdad, un circuito lógico con tres variables de entrada X; Y; Z que a su salida de, el valor en complemento a 2 de la entrada.</p>
+        <p>Solución.</p>
+
+		<br>
+		<center><img src="imas/u2/u2_t18.jpg" class="img-fluid" alt="Tabla que muestra el complemento a dos de las entradas"> <p class="tx-figura">Tabla 18. Tabla que muestra el complemento a dos de las entradas</p></center>
+		
+		<p>El circuito tendrá tres salidas de la siguiente forma</p>
+		<p>XC2 = m1+m2+m3+m4= X’Y’Z+X’YZ’+X’YZ+XY’Z’</p>
+		<p>YC2 = m1+m2+m5+m6= X’Y’Z+X’YZ’+XY’Z+XYZ’</p>
+		<p>Zc2 = m1+m3+m5+m7= X’Y’Z+X’YZ+XY’Z+XYZ</p>
+
+		<p><b><i>Ejemplo 23.-  </i></b> Demuestre con tablas de verdad la validez de la siguiente identidad: QXYZ= X’Y’Z+X’YZ+XY’Z+XYZ = Z.</p>
+    
+		<br>
+		<center><img src="imas/u2/u2_t19.jpg" class="img-fluid" alt="Tabla de verdad para QXYZ= X’Y’Z+X’YZ+XY’Z+XYZ = Z"> <p class="tx-figura">Tabla 19. Tabla de verdad para QXYZ= X’Y’Z+X’YZ+XY’Z+XYZ = Z</p></center>
+
+		<p>En la tabla se puede observar que las columnas para QXYZ  y  Z son iguales por lo tanto la igualdad es VERDADERA</p>
+
+		<a href="unidad2_2.html" target="_self"><img src="imas/btn_atras.png" class="bot" style="float:left;"></a>
+		<a href="unidad2_4.html" target="_self"><img src="imas/btn_adelante.png" class="bot" style="float:right;"></a>
+
+	
+	</div>
+	  
+	  <div id="pleca_botones"><center><a href="pdf/ejercicios_u2.pdf" target="_blank"><img src="imas/btn_ejercicios1.png" class="descargable" alt="descargar ejercicios"></a> &nbsp; &nbsp; <a href="pdf/soluciones_u2.pdf" target="_blank"><img src="imas/btn_solucion1.png" class="descargable" alt="descargar soluciones"></a></center></div>
+	
+
+	  
+	  <br><br><br><br><br><br><br><br><br>
+	  
+
+<script src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+

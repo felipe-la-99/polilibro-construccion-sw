@@ -1,0 +1,338 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+  
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Sistemas digitales</title>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">	
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">	
+  </head>
+  
+  
+  <body>
+	
+<div id="menucin">
+<img src="imas/menu.jpg" id="menucito1" class="img-fluid d-lg-block d-md-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_m.jpg" id="menucito2" class="img-fluid d-md-block d-lg-none d-sm-none d-none" alt="Encabezado de Sistemas Digitales">
+<img src="imas/menu_sm.jpg" id="menucito3" class="img-fluid d-block d-md-none" alt="Encabezado de Sistemas Digitales">	
+	<p id="botones_menu" class="d-md-block d-sm-none d-none"> <a href="index.html" target="_self" class="bot-menu"> Inicio </a> &nbsp;&nbsp; <a href="unidad1.html" target="_self" class="bot-menu">  Unidad I </a> &nbsp;&nbsp; <a href="unidad2.html" target="_self" class="bot-menu">  Unidad II </a> &nbsp;&nbsp; <a href="unidad3.html" target="_self" class="bot-menu">  Unidad III </a> &nbsp;&nbsp; <a href="unidad4.html" target="_self" class="bot-menu"> Unidad IV </a>   &nbsp;&nbsp; <a href="unidad5.html" target="_self" class="bot-menu">  Unidad V </a> &nbsp;&nbsp; <a href="bibliografia.html" target="_self" class="bot-menu">  Bibliografía </a> </p>
+</div>
+	  
+	  
+<div>
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-primary d-md-none">
+	
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	  
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+		  <li id="espacio"></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" >Inicio</a>
+        </li>
+        
+       
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad1.html">Unidad I</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad2.html">Unidad II</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad3.html">Unidad III</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad4.html">Unidad IV</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="unidad5.html">Unidad V</a>
+        </li>
+		  
+		  <li class="nav-item">
+          <a class="nav-link" href="bibliografia.html">Bibliografía</a>
+        </li>
+		  
+		  
+      </ul>
+    </div>
+  </div>
+</nav>
+	 
+	</div>
+	  
+
+	  
+
+		  <br><br><br>
+	<div class="container">
+		
+		<center><img src="imas/portada_u2.jpg" class="img-fluid" alt="Unidad II"></center>
+		<br>
+		<h3>Unidad de competencia:</h3>
+		<p>Simplificar funciones lógicas para el diseño de circuitos digitales aplicando el álgebra de Boole y los mapas de Karnaugh, diferenciando las compuertas lógicas y elaborando tablas de verdad.</p>
+		<br>
+    <div class="indice col-12 col-lg-8 mx-auto">
+      <p>En esta unidad encontrarás los siguientes temas:</p>
+    <p><b>2.1 Álgebra Booleana.</b>
+      2.1.1 Definición Axiomática del álgebra Booleana.<br>
+      2.1.2 Funciones lógicas AND, OR, NOT.<br>
+      2.1.3 Forma canónica y estándar.<br>
+      <b>2.2 Implementación de funciones con compuertas.</b><br>
+      2.2.1 Sistemas con Uni-compuertas NAND o NOR.<br>
+      2.2.2 Teoremas de Algebra Booleana.<br>
+      2.2.3 Teoremas de D´Morgan.<br>
+      <b>2.3 Simplificaciones de funciones por el método algebraico.</b><br>
+      2.3.1 Sistemas digitales, microprocesadores y microcontroladores.<br>
+      <b>2.4 Simplificaciones de funciones por el método de mapas de Karnaugh.</b>
+    2.4.1 Sistemas con Uni-compuertas NAND o NOR.</p>
+    </div>
+
+      <br><br>
+		
+		<div class="card-header">2.1. Álgebra Booleana</div>
+		<br>
+    
+		<p>El álgebra Booleana fue desarrollada por George Boole en 1854 mucho antes que se inventara los transistores, para realizar operaciones lógicas con variables de sólo dos valores “FALSO” y “VERDADERO”.  En 1938 C.E. Shannon introdujo el uso de esta álgebra en la electrónica digital pues se manejan también variables con solo dos valores “0” y “1”.  </p>
+		
+    <h3>2.1.1. Definición Axiomática del álgebra Booleana</h3>
+    <p>Recordando que los postulados en un sistema matemático son los supuestos básicos a partir de los cuales es posible construir dicho sistema.</p>
+    <p>Se debe de tener presente el postulado de cerradura para una álgebra booleana que establece:</p>
+               <p>Si X,Y Є ( 0, 1) → X # Y Є ( 0, 1)</p>
+    <p>Que se lee:</p> 
+    <p>Si X,Y tienen los valores de 0 o 1 entonces X operación Y también tiene valores entre 0 o 1</p>
+    <p>Por ejemplo 0 + 1  =  1, el operador de suma  +  es cerrada</p>
+    <p>No así el operador resta  – , puesto que 0 – 1 = – 1 y este valor NO está entre (0,1)</p>
+      Con esto se quiere decir que las operaciones con números booleanos o binarios siempre arrojará para cada función, variables con valores de 0 o 1.
+    <p>Sea la función F =  X + Y +Z  será = 0 o 1 dependiendo de los valores de cada variable.</p>
+      
+		<br>
+
+    <p class="titulin">Postulados del Álgebra Booleana</p>    
+    <p><b>1.</b> a) Cerradura respecto al operador suma + </p>
+    <p>b) Cerradura respecto al operador multiplicación x,</p>
+    <p>Este operador también se representa ya sea por variables seguidas, una después de otra, por un punto • también por paréntesis (  ).</p>   
+    
+    <p><b>2.</b> a) Existe un elemento identidad -Cero 0- respecto a la suma +, X + 0 = 0</p>
+    <p>b) Existencia de elemento identidad   Uno 1   respecto a la multiplicación × ,  X × 1 = X</p>
+    
+    <p><b>3.</b> a) Conmutativa respecto a suma + 
+      X +Y = Y + X.</p>
+    <p>b) Conmutativa respecto a multiplicación × 
+      X Y = Y X.
+    </p>
+    <p><b>4.</b> a) La multiplicación × es distributiva respecto a la suma +,
+      X (Y+Z) = (XY) + (XZ).</p>
+    <p>b) La suma + es distributiva respecto a la multiplicación ×     
+      X+(YZ) = (X+Y)(X+Z).
+    </p>
+    <p><b>5.</b> Existe para X su complemento X’, tal que  X + X’ = 1        y      XX’ = 0</p>
+    <p><b>6.</b> Por lo menos existen dos elementos X,Y Є ( 0, 1) tales que X ≠ Y.</p>
+
+    <p class="titulin">Teoremas del Álgebra Booleana</p>
+    <p>Teorema 1 &nbsp; &nbsp; &nbsp; X + X = X &nbsp; &nbsp; &nbsp; X × X = X</p>
+    <p>Teorema 2 &nbsp; &nbsp; &nbsp; X + 1 = X &nbsp; &nbsp; &nbsp; X × 0 = 0</p>
+    <p>Teorema 3, involución &nbsp; &nbsp; &nbsp; (X’)’ = X</p>
+    <p>Teorema 4, asociatividad &nbsp; &nbsp; &nbsp; X + (Y + Z) = (X + Y) + Z &nbsp; &nbsp; &nbsp; X(YZ) = (XY)Z</p>
+    <p>Teorema 5, De Morgan &nbsp; &nbsp; &nbsp; (X + Y)’ = X’Y’ &nbsp; &nbsp; &nbsp; (XY)’ = X’ + Y’</p>
+    <p>Teorema 6, Absorción &nbsp; &nbsp; &nbsp; X + XY = X &nbsp; &nbsp; &nbsp; X(X + Y) = X</p>
+    <br>
+
+    <p class="titulin">Demostración de los teoremas</p>
+    <p>Se pueden demostrar construyendo una tabla de verdad para lado de la igualdad, si son iguales, queda demostrado, esto es:</p>
+    <p>Ejemplo 20.- Para el teorema 5, De Morgan.</p>
+    
+    <br>
+    <center><img src="imas/u2/u2_t6.jpg" class="img-fluid" alt="Tabla de verdad que demuestra el teorema De Morgan">	<p class="tx-figura">Tabla 6. Tabla de verdad que demuestra el teorema De Morgan</p></center>
+    
+
+    <p>Otra manera de demostrar los teoremas es con el apoyo de los postulados, esto es: Demostrar el teorema 1 para la suma:      X + X = X.</p>
+    <p>X + X = (X + X) • &nbsp; &nbsp; &nbsp; postulado 2b)</p>
+     <p>= (X + X) • (X + X’) &nbsp; &nbsp; &nbsp;         5a)</p>
+     <p>= XX + XX’ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  4b)</p>
+     <p>= X + 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  5b)</p>
+     <p>= X  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  2a)</p>
+    <br>
+
+    <center><div class="actividad">
+        <h4>Actividad complementaria 1:</h4> <hr>
+        <p class="text-center"><i>Demostrar los otros teoremas.</i></p>
+        <p>Existe en el álgebra booleana el principio de dualidad el cual consiste en que para encontrar el dual de algún postulado, se intercambian los operadores y se sustituyen los 0s por 1s  y los 1s por 0’s:</p>   
+          <p>Ejemplo 1.- para el postulado 2a)   X + 1 = 1 
+           Su dual es 2b)  X • 0 = 0  
+             o También     X +0 =X  
+                                y   X•1=X</p>
+    </div></center>
+    <br>
+    
+    <h3>2.1.2. Funciones lógicas AND, OR, NOT</h3>
+    <p>Operaciones binarias.</p>
+    <p>Las operaciones básicas que se realizan en el álgebra booleana son AND, OR, Y NOT, a partir de ellas se derivan todas demás. La operación que realizan se muestra con la tabla de verdad que es un listado sistemático de todas las posibles combinaciones de los valores 0s y 1s de las variables, incluyendo las entradas y las salidas.</p>
+
+    <br>
+		<center><img src="imas/u2/u2_7.jpg" class="img-fluid" alt="Diagrama esquemático de las compuertas NOT, AND, OR, NAND y NOR">	<p class="tx-figura">Figura 7. Diagrama esquemático de las compuertas NOT, AND, OR, NAND y NOR</p></center>
+
+    <p>Representación de las operaciones binarias con tablas de verdad.</p>
+    <br>
+
+    <p class="titulin">Función AND</p>
+    <p>Tabla de verdad de la función B and A llamada función AND</p> 
+    <p>También se esto se escribe función B and A  = ByA = B•A = BA</p> 
+    <p>Cabe señalar que la notación comúnmente empleada es AB.</p>
+
+    <br>
+    <center><img src="imas/u2/u2_t7.jpg" class="img-fluid" alt="Tabla de verdad de la función B and A llamada función AND">	<p class="tx-figura">Tabla 7. Tabla de verdad de la función B and A llamada función AND</p></center>
+    
+    <p class="titulin">Función OR</p>
+    <p>Tabla de verdad de la función B or A  llamada función OR 
+      También esto se escribe función B or A  = B+A = B o´A 
+      La notación comúnmente usada A+B.
+      </p>
+
+      <br>
+    <center><img src="imas/u2/u2_t8.jpg" class="img-fluid" alt="Tabla de verdad de la función  B or A llamada función OR">	<p class="tx-figura">Tabla 8. Tabla de verdad de la función  B or A llamada función OR</p></center>
+    
+    <p class="titulin">Función not A</p>
+    <p>Tabla de verdad de la función  not A  llamada función negación de A o también Fa= A’</p>
+    
+    <br>
+    <center><img src="imas/u2/u2_t9.jpg" class="img-fluid" alt="Tabla de verdad de la función  not A  llamada función negación de A">	<p class="tx-figura">Tabla 9. Tabla de verdad de la función  not A  llamada función negación de A</p></center>
+    
+    <p>Para estos apuntes se usa la notación de A’ para A negada, AB para A and B  y   A+B para A or B.</p>
+    
+    <center><div class="actividad">
+      <h4>Actividad complementaria 2:</h4> <hr>
+      <p class="text-center"><i>Implementar las tablas para las compuertas NAND y NOR</i></p>
+      <p>Es importante observar lo siguiente en la tabla de verdad:
+        A cada línea de renglón se le llama minitermino, en cada tabla anterior podemos observar que cada línea representa un valor binario, esto es:
+        En la figura x1 solo se tienen dos valores: renglón 0 y renglón 1
+        En la figura x2 y se tienen 4 renglones: renglón 0 0, renglón 0 1, renglón 1 0  y renglón 1 1
+        Llamándose respectivamente minitermino 0, minitermino 1, minitermino 2 y minitermino 3
+        Y que la tabla de verdad tiene tantos renglones o miniterminos como  2 elevado al número de variables de la función, abreviamos minitermino con la palabra Min.
+        </p>   
+        <p><b><i>Ejemplo 2.-</i></b> La función OR</p>
+
+        <br>
+        <center><img src="imas/u2/u2_t10.jpg" class="img-fluid" alt="Miniterminos de la función B or A,  (FBorA), b+a">	<p class="tx-figura">Tabla 10. Miniterminos de la función B or A,  (FBorA), b+a</p></center>
+  </div></center>
+  <br>
+
+  <h3>2.1.3. Forma canónica y estándar</h3>
+  <p class="titulin">Notación Canónica</p>
+
+  <p>Esto lo explicaremos con ejemplos: </p>
+  <p><b><i>Ejemplo 3.-</i></b> Para la tabla x2 de la función AND, (FBA ) tenemos:
+  FBA =  { 3 }   significa que para esta función solo el minitermino 3 tiene el valor binario de 1 de acuerdo con su tabla de verdad.</p>
+  <p>Para la tabla x3 de la función  FBA= B or A,  tenemos:</p>
+  
+  <p>FBA = {1,2,3 }    significa que para esta función los minit´rrmino 1,2,3 tiene el valor binario de 1, de acuerdo con su tabla de verdad.  
+    Otro ejemplo 
+    Determinar la tabla de verdad para la función FCBA ={0,3,5,6,7 }    
+    Solución.- La función FCBA indica que es una función con 3 variables: C; B; A esto significa que se tienen  23=8 minit´rrminos del 0 al 7
+    </p>
+
+    <p class="titulin">Notación estándar</p>
+    <p>Se explica con ejemplos</p>
+    <p><b><i>Ejemplo 4.-</i></b> Escribir la función con todos sus valores de entrada en forma estándar:</p>
+
+    <br>
+  <center><img src="imas/u2/u2_t11.jpg" class="img-fluid" alt="Tabla de verdad función F1">	<p class="tx-figura">Tabla 11. Tabla de verdad función F1</p></center>
+
+  <p>Solución</p>
+  <p>Forma canónicas</p>
+  <p>F1=  { 1.,2}</p>
+  <p>Forma estándar</p>
+  <p>F1=  B’A + BA’ </p>
+
+  <p><b><i>Ejemplo 5.-</i></b> Escribir la función con todos sus valores de entrada en forma estándar:</p>
+  
+  <br>
+  <center><img src="imas/u2/u2_t12.jpg" class="img-fluid" alt="Tabla de verdad función F2">	<p class="tx-figura">Tabla 12. Tabla de verdad función F2</p></center>
+
+  <p>Solución</p>
+  <p>Forma canónica</p>
+  <p>F2=  { 1,.2 ,6}</p>
+  <p>Forma estándar</p>
+  <p>F2=  C’B’A + C’BA’ + CBA’</p>
+
+  <p>Como se muestra en los ejemplos la forma estándar es escribir los Miniterminos correspondientes con valor de variable 1, con las letras que representan los valores de entrada.</p>
+  <p>En lo sucesivo no se indicará el minitermino respectivo en la tabla de verdad sino se dará por hecho.</p>
+
+  <p class="titulin">Diagramas de Venn</p>
+  <p>La representación con diagramas de Venn es una ilustración gráfica en base a la teoría de conjuntos, su aplicación para compuertas lógicas como NOT, AND, OR NAND o NOR es sencilla, pero no resulta práctica en representaciones complejas por lo que no es muy común su uso. En el ejemplo 6 se muestran los esquemas de algunas aplicaciones.</p>  
+
+  <p><b><i>Ejemplo 6.-</i></b> Representación en diagramas de Venn de las operaciones binarias Q = XY + X    y      Q = X(Y+Z).</p>
+
+  <br>
+	<center><img src="imas/u2/u2_8.jpg" class="img-fluid" alt="Diagramas de Venn">	<p class="tx-figura">Figura 8. Diagramas de Venn</p></center>
+
+  <p class="titulin">Expresiones a su forma estándar o no reducida</p>
+  <p>Para convertir una expresión a su forma estándar lo primero es ver qué valor es el que falta en cada parte de la expresión y cuáles son los valores utilizados en cada parte de ella, es decir que variables de entrada existen, completar la forma estándar es escribir la función con todas las variables.</p>
+
+  <p><b><i>Ejemplo 7.-</i></b> Escribir en su forma estándar R= ABD+BC</p>
+  <p>En esta expresión para R los valores utilizados son ABCD, si la separamos podemos notar que a la primera parte le faltan valores C,C’, a la segunda le faltan los valores A,A’,D,D’. Por lo tanto, para expresar la función R en su forma estándar se multiplica cada minitermino por 1 en la forma (X+X’) para cada uno de los términos faltantes. Sumando todos los miniterminos y eliminando los que sean repetidos.</p>
+  <br>
+  
+  <p>1. Primer minitermino.</p> 
+  <p>ABD(1)= ABD(C+C’)= ABCD+ABC’D</p>
+  
+  <p>2. Segundo minitérmino.</p>  
+  <p>BC=(A+A’) BC (D+D’) = (ABC+A’BC) (D+D’)=ABCD+ABCD’+A’BCD+A’BCD’</p>
+  <p>Resultado final para <b><i>R= ABD+BC</i></b></p>
+
+  <p>3. Se suman los TODOS minitérminos.</p>  
+  <p><b><i>R= ABD+BCR= ABD+BC = </i></b>ABCD+ABC’D+ ABCD+ABCD’+A’BCD+A’BCD’</p>
+
+  <p>4. Quitando minitérminos repetidos.</p>  
+  <p><b><i>R=</i></b>ABCD+ABC’D+ABCD’+A’BCD+A’BCD’</p>
+
+  <p>5. Ordenando queda el resultado final.</p>  
+  <p><b><i>R=</i></b>A’BCD’+ A’BCD+ ABC’D+ ABCD’+ ABCD</p>
+
+  <p>6. En forma canónica.</p>  
+  <p><b><i>R=</i></b>(6,7,13,14,15)</p>
+
+  <center><div class="actividad">
+    <h4>Actividad complementaria 3:</h4> <hr>
+    <p class="text-center"><i>Dibujar la tabla de verdad para R= ABD+BC y partir de ella construir la forma estándar de R</i></p>   
+</div></center>
+<br>
+
+
+		<a href="unidad1_4.html" target="_self"><img src="imas/btn_atras.png" class="bot" style="float:left;"></a>
+		<a href="unidad2_2.html" target="_self"><img src="imas/btn_adelante.png" class="bot" style="float:right;"></a>
+
+    
+
+	
+	</div>
+	  
+	  <div id="pleca_botones"><center><a href="pdf/ejercicios_u2.pdf"  target="_blank"><img src="imas/btn_ejercicios2.png" class="descargable" alt="descargar ejercicios"></a> &nbsp; &nbsp; <a href="pdf/soluciones_u2.pdf"  target="_blank"><img src="imas/btn_solucion2.png" class="descargable" alt="descargar soluciones"></a></center></div>
+	
+
+	  
+	  <br><br><br><br><br><br><br><br><br>
+	  
+
+<script src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>	
+	</body>
+</html>
+
